@@ -2,19 +2,20 @@
 jurjen.dev is my new domain & server (end of 2021)
 It will host my personal website, notes, projects, etc..
 
-It's been a while... I am very excited to have both a web presence and a FreeBSD box again :D
+It's been a while... I am very excited to have both a web presence and a FreeBSD host again :D
 
 ===== Basic info =====
 Runs on a [[https://transip.nl|vps]]
 
-  * [[configuration:jurjen.dev:pkg-list| installed packages list]]
-  * [[https://github.com/snhmibby/conf.jurjen.dev|important configuration files]]
-  * [[https://github.com/snhmibby/jurjen.dev|main site]]
-  * [[https://github.com/snhmibby/wiki.jurjen.dev|dokuwiki backup]]
+  * [[configuration:jurjen.dev:pkg-list| Installed packages list]]
+  * [[tricks:admin:git_etc_config|Put .configuration in a git repo]] @ [[http://github.com/snhmibby/conf.jurjen.dev|host configuration files]]
+  * [[https://github.com/snhmibby/jurjen.dev|Main site]]
+  * [[https://github.com/snhmibby/wiki.jurjen.dev|Dokuwiki backup]], see [[https://github.com/snhmibby/wiki.jurjen.dev/blob/c5c98f3cf3b3c7f56ae4d375faf41a0d8203ec60/backup_wiki.sh|this script]]
 
 ===== Extra hacks =====
 
-  * [[https://tom-henderson.github.io/2015/04/08/dokuwiki-github.html|back up dokuwiki to git with cronjob]]
-  * [[tricks:git_and_lighttpd|Use git to store your site]]
-  * use [[https://certbot.eff.org|certbot]] to manage certificates for [[https://jurjen.dev]], [[https://www.jurjen.dev]] and [[https://wiki.jurjen.dev]]
+  * [[https://tom-henderson.github.io/2015/04/08/dokuwiki-github.html|Back up dokuwiki to git with cronjob]]
+  * [[tricks:git_and_lighttpd|Use git to store your site-data]]
+  * Use [[https://certbot.eff.org|certbot]] to manage certificates for [[https://jurjen.dev]], [[https://www.jurjen.dev]] and [[https://wiki.jurjen.dev]]
+
 

@@ -1,0 +1,20 @@
+====== Links ======
+  * [[https://github.com/snhmibby|My github]]
+
+
+===== System ======
+
+==== FreeBSD ====
+  * [[http://freebsd.org/doc/en/handbook|Handbook]]
+  * [[https://www.freebsd.org/cgi/man.cgi|Manual pages]]
+
+===== Web =====
+  * [[https://developer.mozilla.org/en-US/docs/Web |Mozilla www docs]]
+  * [[http://w3schools.com]]
+
+
+===== +Cracking =====
+  * [[http://3564020356.org/|malattia reversing puzzles]]
+
+
+

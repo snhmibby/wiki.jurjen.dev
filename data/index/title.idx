@@ -1,6 +1,6 @@
 Formatting Syntax
 Welcome to my wiki
-Programming links
+
 Host configuration notes
 
 
@@ -13,3 +13,5 @@ Use git to store your site
 jurjen.dev
 Installed pkg
 Hackbook: Macbook Pro laptop running Debian
+Put .configuration in a git repo
+Links

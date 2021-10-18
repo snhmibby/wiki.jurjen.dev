@@ -3,15 +3,16 @@
 ===== Programming =====
 ==== Famous programmers/interesting reading ====
 
-  * [[http://lamport.azurewebsites.net/pubs/pubs.html|Lamport]] famous programmer
+  * [[http://lamport.azurewebsites.net/pubs/pubs.html|Lamport]] didn't read much but probably interesting
   * 
 
 ===== Admin =====
 
   * [[https://gandi.net]] nice registrar
-  * [[https://transip.nl]] freebsd vps/cloud host from my country
+  * [[https://transip.nl]] FreeBSD vps/cloud host I'm using atm.
   * [[tricks:git_and_lighttpd|Block .git directory access in lighttpd]]
-  * use [[https://certbot.eff.org|certbot]] to easily manage free ssl certificates
+  * Use [[https://certbot.eff.org|certbot]] to easily manage free ssl certificates
+  * [[tricks:admin:git_etc_config|How to put configuration files in a git repo]]
 
 ==== Free hosts/limited trial ====
   * Google cloud/app engine has free trial

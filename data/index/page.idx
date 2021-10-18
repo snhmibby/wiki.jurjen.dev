@@ -13,3 +13,5 @@ tricks:git_and_lighttpd
 configuration:jurjen.dev
 configuration:jurjen.dev:pkg-list
 configuration:hackbook
+tricks:admin:git_etc_config
+bookmarks
