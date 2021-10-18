@@ -1,4 +1,10 @@
-====== Computer tips & tricks ======
+====== Computer links, tips & tricks ======
+
+===== Programming =====
+==== Famous programmers/interesting reading ====
+
+  * [[http://lamport.azurewebsites.net/pubs/pubs.html|Lamport]] famous programmer
+  * 
 
 ===== Admin =====
 
