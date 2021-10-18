@@ -1,0 +1,62 @@
+#std settings
+var.log_root    = &quot;/var/log/lighttpd&quot;
+var.server_root = &quot;/usr/local/www/&quot;
+var.state_dir   = &quot;/var/run&quot;
+var.home_dir    = &quot;/var/run/lighttpd&quot;
+var.conf_dir    = &quot;/usr/local/etc/lighttpd&quot;
+server.username  = &quot;www&quot;
+server.groupname = &quot;www&quot;
+&nbsp;
+#include files
+include &quot;conf.d/mime.conf&quot;
+include &quot;conf.d/access_log.conf&quot;
+&nbsp;
+server.modules += (
+	&quot;mod_fastcgi&quot;,
+	&quot;mod_rewrite&quot;,
+	&quot;mod_auth&quot;,
+	&quot;mod_access&quot;,
+	&quot;mod_openssl&quot;,
+)
+&nbsp;
+&nbsp;
+#default server
+server.document-root = &quot;/usr/local/www&quot; + &quot;/data&quot;
+server.pid-file = state_dir + &quot;/lighttpd.pid&quot;
+server.errorlog             = log_root + &quot;/error.log&quot;
+&nbsp;
+index-file.names += (
+  &quot;index.xhtml&quot;, &quot;index.html&quot;, &quot;index.htm&quot;, &quot;default.htm&quot;, &quot;index.php&quot;
+)
+&nbsp;
+#ssl enabled
+$SERVER[&quot;socket&quot;] == &quot;0.0.0.0:443&quot; {
+	ssl.engine = &quot;enable&quot;
+	ssl.pemfile = &quot;/usr/local/etc/letsencrypt/live/jurjen.dev/fullchain.pem&quot;
+	ssl.privkey = &quot;/usr/local/etc/letsencrypt/live/jurjen.dev/privkey.pem&quot;
+	#ssl.cipher-list             = &quot;HIGH&quot;   # default
+	server.name                 = &quot;www.jurjen.dev&quot;
+	server.use-ipv6 = &quot;enable&quot;
+}
+&nbsp;
+#subdomain for configuration wiki
+# :( not all rules for the subdomain can be local!??
+$HTTP[&quot;url&quot;] =~ &quot;^(bin|data|inc|conf)&quot; {
+	url.access-deny = (&quot;&quot;)
+}
+&nbsp;
+&nbsp;
+$HTTP[&quot;url&quot;] =~ &quot;/(\.|_)ht&quot; {
+	url.access-deny = (&quot;&quot;)
+}
+&nbsp;
+$HTTP[&quot;host&quot;] == &quot;wiki.jurjen.dev&quot; {
+	fastcgi.server = ( &quot;.php&quot; =&gt; ((
+		&quot;bin-path&quot; =&gt; &quot;/usr/local/bin/php-cgi&quot;,
+		&quot;socket&quot; =&gt; &quot;/tmp/dokuwiki.php.socket&quot;
+		))
+	)
+	server.document-root = &quot;/usr/local/www/dokuwiki&quot;
+	accesslog.filename = log_root + &quot;/wiki.access.log&quot;
+	server.errorlog = log_root + &quot;/wiki.error.log&quot;
+}

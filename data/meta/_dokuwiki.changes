@@ -1,0 +1,50 @@
+1634533766	62.133.100.252	C	start		created		76
+1634533902	62.133.100.252	C	programming		created		51
+1634534133	62.133.100.252	E	start				29
+1634534222	62.133.100.252	C	configuration		created		128
+1634534312	62.133.100.252	C	hackbook		created		66
+1634534525	62.133.100.252	C	jurjen.dev		created		264
+1634534912	62.133.100.252	E	jurjen.dev				-71
+1634537252	188.206.67.28	C	jurjen.dev-config_files		created		1101
+1634537785	188.206.67.28	E	jurjen.dev-config_files				1487
+1634539137	188.206.72.32	E	jurjen.dev	jurjen			30
+1634539332	188.206.72.32	E	jurjen.dev	jurjen			59
+1634539498	188.206.72.32	C	jurjen.dev-installed_packages	jurjen	created		254
+1634539724	188.206.72.32	C	freebsd	jurjen	created		447
+1634539770	188.206.72.32	E	freebsd	jurjen			-4
+1634540793	188.206.72.32	E	jurjen.dev-config_files	jurjen	[Lighttpd] 		181
+1634540835	188.206.72.32	E	jurjen.dev-config_files	jurjen			24
+1634545335	62.133.101.106	E	jurjen.dev-config_files	jurjen	[Lighttpd] 		50
+1634546359	62.133.101.106	E	jurjen.dev-config_files	jurjen	[Lighttpd] 		-8
+1634548060	62.133.101.106	E	start	jurjen			15
+1634548085	62.133.101.106	E	start	jurjen			-4
+1634548258	62.133.101.106	C	tricks	jurjen	created		129
+1634549439	62.133.101.106	C	tricks:git_and_lighttpd	jurjen	created		457
+1634554281	31.161.147.8	E	start	jurjen			90
+1634554463	31.161.147.8	E	configuration	jurjen			82
+1634554702	31.161.147.8	E	jurjen.dev	jurjen			-136
+1634554758	31.161.147.8	E	tricks:git_and_lighttpd	jurjen			-21
+1634554940	31.161.147.8	E	programming	jurjen			187
+1634555327	31.161.147.8	E	programming	jurjen			79
+1634555647	31.161.147.8	E	configuration	jurjen			97
+1634555807	31.161.147.8	E	configuration	jurjen			76
+1634555950	31.161.147.8	E	jurjen.dev	jurjen			4
+1634556059	31.161.147.8	E	jurjen.dev	jurjen			-4
+1634563468	62.133.100.146	E	jurjen.dev-config_files	jurjen	[Lighttpd] 		114
+1634563542	62.133.100.146	E	jurjen.dev-config_files	jurjen	[Lighttpd] 		-54
+1634566962	83.232.57.179	E	configuration	jurjen			28
+1634567573	83.232.57.179	C	configuration:jurjen.dev	jurjen	created		690
+1634567596	83.232.57.179	E	configuration:jurjen.dev	jurjen	[configuration: jurjen.dev] 		-15
+1634567823	83.232.57.179	C	configuration:jurjen.dev:pkg-list	jurjen	created		153
+1634567903	83.232.57.179	E	configuration:jurjen.dev	jurjen	[Extra hacks] 		118
+1634567943	83.232.57.179	E	configuration:jurjen.dev	jurjen	[Extra hacks] 		36
+1634567978	83.232.57.179	E	configuration:jurjen.dev	jurjen	[jurjen.dev] 		-10
+1634568023	83.232.57.179	E	configuration:jurjen.dev	jurjen	[jurjen.dev] 		95
+1634568365	83.232.57.179	C	configuration:hackbook	jurjen	created		469
+1634568401	83.232.57.179	E	configuration:hackbook	jurjen			2
+1634568698	83.232.57.179	E	configuration:hackbook	jurjen			190
+1634568836	83.232.57.179	D	hackbook	jurjen	removed		-66
+1634568941	83.232.57.179	D	jurjen.dev-config_files	jurjen	removed		-2895
+1634568976	83.232.57.179	D	jurjen.dev-installed_packages	jurjen	removed		-254
+1634569001	83.232.57.179	D	jurjen.dev	jurjen	removed		-146
+1634569315	83.232.57.179	E	tricks	jurjen			359

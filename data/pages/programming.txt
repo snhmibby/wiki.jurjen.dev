@@ -1,0 +1,12 @@
+====== Programming links ======
+===== Language documentation/examples/tutorials =====
+==== Go ====
+  * [[http://golang.org/doc|go documentation]]
+
+==== Web ====
+  * [[http://w3schools.com]]
+
+===== Stuff =====
+
+  * my [[https://www.github.com/snhmibby|github]]
+  * [[http://3564020356.org/|malattia reversing puzzles]]

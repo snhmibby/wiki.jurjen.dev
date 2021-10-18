@@ -1,0 +1,9 @@
+====== Installed pkg ======
+Minimal list, doesn't include dependencies
+  * vim
+  * git
+  * bash
+  * lighttpd
+  * go (v1.17)
+  * py38-certbot
+  * dokuwiki

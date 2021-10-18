@@ -1,0 +1,53 @@
+a:8:{s:2:"id";s:23:"jurjen.dev-config_files";s:6:"prefix";s:0:"";s:4:"text";s:1153:"====== Configuration files for vps.jurjen.dev ======
+Some of the basic configuration files for this host.
+
+
+===== rc.conf =====
+
+<file sh rc.conf>
+hostname="vps.jurjen.dev"
+
+#ip
+defaultrouter="31.14.96.1"
+ifconfig_vtnet0="inet 31.14.96.52 netmask 0xffffff00"
+
+#ipv6
+ipv6_defaultrouter="2a01:7c8:bb01::1"
+ifconfig_vtnet0_ipv6="inet6 2a01:7c8:bb01:70a:5054:ff:fea4:889f/48"
+
+pf_enable="YES"
+pflog_enable="YES"
+pf_rules="/etc/pf.firewall"
+
+#
+# servers
+#
+#TODO
+sendmail_enable="NONE"
+sshd_enable="YES"
+lighttpd_enable="YES"
+</file>
+
+===== firewall =====
+
+
+I wasn't sure which icmp6 is needed or not, so just allow all.
+I think besides the list here, at least the icmps for neighbor discovery and auto-configuration should be enabled in most cases.
+<file pf pf.firewall>
+serves="{ ssh www https }"
+icmp="{ echorep echoreq unreach }"
+#icmp6="{ 1 2 3 128 129 }" #unreach, too big, time exceeded, echo request/reply
+
+scrub in all
+set skip on lo0
+
+#pass quick all
+block log all
+
+pass inet proto icmp icmp-type $icmp
+pass inet6 proto ipv6-icmp
+
+pass in proto tcp to port $serves
+pass out all keep state
+
+</file>";s:6:"suffix";s:0:"";s:4:"date";i:0;s:6:"client";s:14:"62.133.100.252";s:5:"cname";s:75:"/usr/local/www/dokuwiki/data/cache/9/923b2d29349c35e4c2f32b3c7a4dacd0.draft";s:6:"errors";a:0:{}}

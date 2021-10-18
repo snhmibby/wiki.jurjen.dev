@@ -1,0 +1,3 @@
+By far the better server OS when compared to Linux, or most Linux distributions.
+
+The separation between system and installed packages and lack of nonsense make it far preferrable and easier to comprehend than a default linux installation. The amount of crappy background programs, configuration daemons and general crap running with a default Linux installation is plain uncomfortable. The Linux /etc tree reminds me of win32. Fuck that shit.

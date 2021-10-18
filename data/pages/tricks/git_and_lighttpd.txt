@@ -1,0 +1,17 @@
+====== Use git to store your site ======
+
+You can use git to easily pull your website onto the server and work on it on another computer.
+
+It shouldn't matter, but for ease of mind,be sure to block the .git directory in lighttpd, like so:
+<code>
+$HTTP["url"] =~ "/\.git/" {
+    url.access-deny = ("")
+}
+</code>
+
+Or, just block access to any hidden directory like so
+<code>
+$HTTP["url"] =~ "/\..+/" {
+    url.access-deny = ("")
+}
+</code>

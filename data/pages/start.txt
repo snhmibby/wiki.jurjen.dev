@@ -1,0 +1,6 @@
+====== Welcome to my wiki ======
+Here I am keeping (mostly) computer related links, tricks and thoughts I find interesting.
+
+  * [[Programming]]
+  * [[Configuration|Host configuration notes]]
+  * [[Tricks]]

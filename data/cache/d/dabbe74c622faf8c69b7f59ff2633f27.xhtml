@@ -1,0 +1,23 @@
+
+<h1 class="sectionedit1" id="use_git_to_store_your_site">Use git to store your site</h1>
+<div class="level1">
+
+<p>
+You can use git to easily pull your website onto the server and work on it on another computer.
+</p>
+
+<p>
+It shouldn&#039;t matter, but for ease of mind,be sure to block the .git directory in lighttpd, like so:
+</p>
+<pre class="code">$HTTP[&quot;url&quot;] =~ &quot;/\.git/&quot; {
+    url.access-deny = (&quot;&quot;)
+}</pre>
+
+<p>
+Or, just block access to any hidden directory like so
+</p>
+<pre class="code">$HTTP[&quot;url&quot;] =~ &quot;/\..+/&quot; {
+    url.access-deny = (&quot;&quot;)
+}</pre>
+
+</div>

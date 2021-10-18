@@ -1,0 +1,15 @@
+====== Hackbook: Macbook Pro laptop running Debian ======
+I am not very happy with Debian, because it is so messy, too much things running in the background, systemd, dbus, a whole lot of background tasks i have no idea what they are doing and have no conscious recollection of installing.
+Anyway, it runs pretty good on an old macbook which BSD didn't :-x
+
+Some [[https://github.com/snhmibby/dotfiles|dotfiles are here on github]]
+
+===== List of software I like =====
+
+  * wmii; very simple tiling window manager
+  * vim (see dotfiles above for plugin-list & vimrc)
+  * Firefox, with  plugins:
+    * vim-vixen
+    * umatrix
+    * ghostery
+    * tree style tabs

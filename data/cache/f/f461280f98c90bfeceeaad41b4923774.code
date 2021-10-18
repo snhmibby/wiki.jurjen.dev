@@ -1,0 +1,21 @@
+hostname=&quot;vps.jurjen.dev&quot;
+&nbsp;
+#ip
+defaultrouter=&quot;31.14.96.1&quot;
+ifconfig_vtnet0=&quot;inet 31.14.96.52 netmask 0xffffff00&quot;
+&nbsp;
+#ipv6
+ipv6_defaultrouter=&quot;2a01:7c8:bb01::1&quot;
+ifconfig_vtnet0_ipv6=&quot;inet6 2a01:7c8:bb01:70a:5054:ff:fea4:889f/48&quot;
+&nbsp;
+pf_enable=&quot;YES&quot;
+pflog_enable=&quot;YES&quot;
+pf_rules=&quot;/etc/pf.firewall&quot;
+&nbsp;
+#
+# servers
+#
+#TODO
+sendmail_enable=&quot;NONE&quot;
+sshd_enable=&quot;YES&quot;
+lighttpd_enable=&quot;YES&quot;

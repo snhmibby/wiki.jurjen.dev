@@ -1,0 +1,20 @@
+====== jurjen.dev  ======
+jurjen.dev is my new domain & server (end of 2021)
+It will host my personal website, notes, projects, etc..
+
+It's been a while... I am very excited to have both a web presence and a FreeBSD box again :D
+
+===== Basic info =====
+Runs on a [[https://transip.nl|vps]]
+
+  * [[configuration:jurjen.dev:pkg-list| installed packages list]]
+  * [[https://github.com/snhmibby/conf.jurjen.dev|important configuration files]]
+  * [[https://github.com/snhmibby/jurjen.dev|main site]]
+  * [[https://github.com/snhmibby/wiki.jurjen.dev|dokuwiki backup]]
+
+===== Extra hacks =====
+
+  * [[https://tom-henderson.github.io/2015/04/08/dokuwiki-github.html|back up dokuwiki to git with cronjob]]
+  * [[tricks:git_and_lighttpd|Use git to store your site]]
+  * use [[https://certbot.eff.org|certbot]] to manage certificates for [[https://jurjen.dev]], [[https://www.jurjen.dev]] and [[https://wiki.jurjen.dev]]
+

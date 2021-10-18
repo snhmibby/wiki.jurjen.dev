@@ -1,0 +1,146 @@
+
+<h1 class="sectionedit1" id="configuration_files_for_vpsjurjendev">Configuration files for vps.jurjen.dev</h1>
+<div class="level1">
+
+<p>
+Some of the basic configuration files for this host.
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Configuration files for vps.jurjen.dev&quot;,&quot;hid&quot;:&quot;configuration_files_for_vpsjurjendev&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:1,&quot;range&quot;:&quot;1-108&quot;} -->
+<h2 class="sectionedit2" id="rcconf">rc.conf</h2>
+<div class="level2">
+<dl class="file">
+<dt><a href="/doku.php?do=export_code&amp;id=jurjen.dev-config_files&amp;codeblock=0" title="Download Snippet" class="mediafile mf_conf">rc.conf</a></dt>
+<dd><pre class="code file sh">hostname=&quot;vps.jurjen.dev&quot;
+&nbsp;
+#ip
+defaultrouter=&quot;31.14.96.1&quot;
+ifconfig_vtnet0=&quot;inet 31.14.96.52 netmask 0xffffff00&quot;
+&nbsp;
+#ipv6
+ipv6_defaultrouter=&quot;2a01:7c8:bb01::1&quot;
+ifconfig_vtnet0_ipv6=&quot;inet6 2a01:7c8:bb01:70a:5054:ff:fea4:889f/48&quot;
+&nbsp;
+pf_enable=&quot;YES&quot;
+pflog_enable=&quot;YES&quot;
+pf_rules=&quot;/etc/pf.firewall&quot;
+&nbsp;
+#
+# servers
+#
+#TODO
+sendmail_enable=&quot;NONE&quot;
+sshd_enable=&quot;YES&quot;
+lighttpd_enable=&quot;YES&quot;</pre>
+</dd></dl>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;rc.conf&quot;,&quot;hid&quot;:&quot;rcconf&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:2,&quot;range&quot;:&quot;109-529&quot;} -->
+<h2 class="sectionedit3" id="firewall">firewall</h2>
+<div class="level2">
+
+<p>
+I wasn&#039;t sure which icmp6 is needed or not, so just allow all.
+I think besides the list here, at least the icmps for neighbor discovery and auto-configuration should be enabled in most cases.
+</p>
+<dl class="file">
+<dt><a href="/doku.php?do=export_code&amp;id=jurjen.dev-config_files&amp;codeblock=1" title="Download Snippet" class="mediafile mf_firewall">pf.firewall</a></dt>
+<dd><pre class="code file pf"><span class="re2">serves</span><span class="sy0">=</span><span class="st0">&quot;{ ssh www https }&quot;</span>
+<span class="re2">icmp</span><span class="sy0">=</span><span class="st0">&quot;{ echorep echoreq unreach }&quot;</span>
+<span class="co0">#icmp6=&quot;{ 1 2 3 128 129 }&quot; #unreach, too big, time exceeded, echo request/reply</span>
+&nbsp;
+<span class="kw3">scrub</span> <span class="kw4">in</span> all
+<span class="kw3">set</span> <span class="kw3">skip</span> <span class="kw3">on</span> lo0
+&nbsp;
+<span class="co0">#pass quick all</span>
+<span class="kw2">block</span> log all
+&nbsp;
+<span class="kw1">pass</span> inet <span class="kw4">proto</span> icmp icmp-type <span class="re1">$icmp</span>
+<span class="kw1">pass</span> inet6 <span class="kw4">proto</span> ipv6-icmp
+&nbsp;
+<span class="kw1">pass</span> <span class="kw4">in</span> <span class="kw4">proto</span> tcp to port <span class="re1">$serves</span>
+<span class="kw1">pass</span> <span class="kw4">out</span> all <span class="kw3">keep</span> <span class="kw3">state</span></pre>
+</dd></dl>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;firewall&quot;,&quot;hid&quot;:&quot;firewall&quot;,&quot;codeblockOffset&quot;:1,&quot;secid&quot;:3,&quot;range&quot;:&quot;530-1104&quot;} -->
+<h2 class="sectionedit4" id="lighttpd">Lighttpd</h2>
+<div class="level2">
+
+<p>
+Serves <a href="https://www.jurjen.dev" class="urlextern" title="https://www.jurjen.dev" rel="ugc nofollow">https://www.jurjen.dev</a> and <a href="https://wiki.jurjen.dev" class="urlextern" title="https://wiki.jurjen.dev" rel="ugc nofollow">https://wiki.jurjen.dev</a>
+</p>
+<dl class="file">
+<dt><a href="/doku.php?do=export_code&amp;id=jurjen.dev-config_files&amp;codeblock=2" title="Download Snippet" class="mediafile mf_conf">lighttpd.conf</a></dt>
+<dd><pre class="code file lua"><span class="sy0">#</span>std settings
+var<span class="sy0">.</span>log_root    <span class="sy0">=</span> <span class="st0">&quot;/var/log/lighttpd&quot;</span>
+var<span class="sy0">.</span>server_root <span class="sy0">=</span> <span class="st0">&quot;/usr/local/www/&quot;</span>
+var<span class="sy0">.</span>state_dir   <span class="sy0">=</span> <span class="st0">&quot;/var/run&quot;</span>
+var<span class="sy0">.</span>home_dir    <span class="sy0">=</span> <span class="st0">&quot;/var/run/lighttpd&quot;</span>
+var<span class="sy0">.</span>conf_dir    <span class="sy0">=</span> <span class="st0">&quot;/usr/local/etc/lighttpd&quot;</span>
+&nbsp;
+server<span class="sy0">.</span>username  <span class="sy0">=</span> <span class="st0">&quot;www&quot;</span>
+server<span class="sy0">.</span>groupname <span class="sy0">=</span> <span class="st0">&quot;www&quot;</span>
+&nbsp;
+<span class="sy0">#</span>include files
+include <span class="st0">&quot;conf.d/mime.conf&quot;</span>
+include <span class="st0">&quot;conf.d/access_log.conf&quot;</span>
+&nbsp;
+server<span class="sy0">.</span>modules <span class="sy0">+=</span> <span class="br0">&#40;</span>
+	<span class="st0">&quot;mod_fastcgi&quot;</span><span class="sy0">,</span>
+	<span class="st0">&quot;mod_rewrite&quot;</span><span class="sy0">,</span>
+	<span class="st0">&quot;mod_auth&quot;</span><span class="sy0">,</span>
+	<span class="st0">&quot;mod_access&quot;</span><span class="sy0">,</span>
+	<span class="st0">&quot;mod_openssl&quot;</span><span class="sy0">,</span>
+<span class="br0">&#41;</span>
+&nbsp;
+static<span class="sy0">-</span>file<span class="sy0">.</span>exclude<span class="sy0">-</span>extensions <span class="sy0">=</span> <span class="br0">&#40;</span> <span class="st0">&quot;.fcgi&quot;</span><span class="sy0">,</span> <span class="st0">&quot;.php&quot;</span><span class="sy0">,</span> <span class="st0">&quot;~&quot;</span><span class="sy0">,</span> <span class="st0">&quot;.inc&quot;</span><span class="br0">&#41;</span>
+index<span class="sy0">-</span>file<span class="sy0">.</span>names <span class="sy0">+=</span> <span class="br0">&#40;</span>
+  <span class="st0">&quot;index.xhtml&quot;</span><span class="sy0">,</span> <span class="st0">&quot;index.html&quot;</span><span class="sy0">,</span> <span class="st0">&quot;index.htm&quot;</span><span class="sy0">,</span> <span class="st0">&quot;default.htm&quot;</span><span class="sy0">,</span> <span class="st0">&quot;index.php&quot;</span>
+<span class="br0">&#41;</span>
+&nbsp;
+<span class="sy0">#</span>default server
+server<span class="sy0">.</span>document<span class="sy0">-</span>root <span class="sy0">=</span> <span class="st0">&quot;/usr/local/www&quot;</span> <span class="sy0">+</span> <span class="st0">&quot;/jurjen.dev&quot;</span>
+server<span class="sy0">.</span>pid<span class="sy0">-</span>file <span class="sy0">=</span> state_dir <span class="sy0">+</span> <span class="st0">&quot;/lighttpd.pid&quot;</span>
+server<span class="sy0">.</span>errorlog <span class="sy0">=</span> log_root <span class="sy0">+</span> <span class="st0">&quot;/error.log&quot;</span>
+server<span class="sy0">.</span>name <span class="sy0">=</span> <span class="st0">&quot;www.jurjen.dev&quot;</span>
+server<span class="sy0">.</span>bind <span class="sy0">=</span> <span class="st0">&quot;0.0.0.0&quot;</span>
+server<span class="sy0">.</span>use<span class="sy0">-</span>ipv6 <span class="sy0">=</span> <span class="st0">&quot;enable&quot;</span>
+&nbsp;
+$HTTP<span class="br0">&#91;</span><span class="st0">&quot;url&quot;</span><span class="br0">&#93;</span> <span class="sy0">=</span>~ <span class="st0">&quot;/\..+/&quot;</span> <span class="br0">&#123;</span>
+	url<span class="sy0">.</span>access<span class="sy0">-</span>deny <span class="sy0">=</span> <span class="br0">&#40;</span><span class="st0">&quot;&quot;</span><span class="br0">&#41;</span>
+<span class="br0">&#125;</span>
+&nbsp;
+&nbsp;
+<span class="sy0">#</span>ssl
+ssl<span class="sy0">.</span>pemfile <span class="sy0">=</span> <span class="st0">&quot;/usr/local/etc/letsencrypt/live/jurjen.dev/fullchain.pem&quot;</span>
+ssl<span class="sy0">.</span>privkey <span class="sy0">=</span> <span class="st0">&quot;/usr/local/etc/letsencrypt/live/jurjen.dev/privkey.pem&quot;</span>
+$SERVER<span class="br0">&#91;</span><span class="st0">&quot;socket&quot;</span><span class="br0">&#93;</span> <span class="sy0">==</span> <span class="st0">&quot;0.0.0.0:443&quot;</span> <span class="br0">&#123;</span> ssl<span class="sy0">.</span>engine <span class="sy0">=</span> <span class="st0">&quot;enable&quot;</span> <span class="br0">&#125;</span>
+$SERVER<span class="br0">&#91;</span><span class="st0">&quot;socket&quot;</span><span class="br0">&#93;</span> <span class="sy0">==</span>   <span class="st0">&quot;[::]:443&quot;</span>  <span class="br0">&#123;</span> ssl<span class="sy0">.</span>engine <span class="sy0">=</span> <span class="st0">&quot;enable&quot;</span> <span class="br0">&#125;</span>
+&nbsp;
+<span class="sy0">#</span>personal notes wiki
+$HTTP<span class="br0">&#91;</span><span class="st0">&quot;host&quot;</span><span class="br0">&#93;</span> <span class="sy0">=</span>~ <span class="st0">&quot;wiki.jurjen.dev&quot;</span> <span class="br0">&#123;</span>
+	server<span class="sy0">.</span>document<span class="sy0">-</span>root <span class="sy0">=</span> <span class="st0">&quot;/usr/local/www/dokuwiki&quot;</span>
+	accesslog<span class="sy0">.</span>filename <span class="sy0">=</span> log_root <span class="sy0">+</span> <span class="st0">&quot;/wiki.access.log&quot;</span>
+	server<span class="sy0">.</span>errorlog <span class="sy0">=</span> log_root <span class="sy0">+</span> <span class="st0">&quot;/wiki.error.log&quot;</span>
+&nbsp;
+	fastcgi<span class="sy0">.</span>server <span class="sy0">=</span> <span class="br0">&#40;</span> <span class="st0">&quot;.php&quot;</span> <span class="sy0">=&gt;</span> <span class="br0">&#40;</span><span class="br0">&#40;</span>
+		<span class="st0">&quot;bin-path&quot;</span> <span class="sy0">=&gt;</span> <span class="st0">&quot;/usr/local/bin/php-cgi&quot;</span><span class="sy0">,</span>
+		<span class="st0">&quot;socket&quot;</span> <span class="sy0">=&gt;</span> <span class="st0">&quot;/tmp/dokuwiki.php.socket&quot;</span>
+		<span class="br0">&#41;</span><span class="br0">&#41;</span>
+	<span class="br0">&#41;</span>
+&nbsp;
+	<span class="sy0">#</span>block sensitive directories
+	$HTTP<span class="br0">&#91;</span><span class="st0">&quot;url&quot;</span><span class="br0">&#93;</span> <span class="sy0">=</span>~ <span class="st0">&quot;^/(bin|data|inc|conf|vendor)/.+&quot;</span> <span class="br0">&#123;</span>
+		url<span class="sy0">.</span>access<span class="sy0">-</span>deny <span class="sy0">=</span> <span class="br0">&#40;</span> <span class="st0">&quot;&quot;</span> <span class="br0">&#41;</span>
+	<span class="br0">&#125;</span>
+&nbsp;
+	$HTTP<span class="br0">&#91;</span><span class="st0">&quot;url&quot;</span><span class="br0">&#93;</span> <span class="sy0">=</span>~ <span class="st0">&quot;/(\.|_)ht&quot;</span> <span class="br0">&#123;</span>
+		url<span class="sy0">.</span>access<span class="sy0">-</span>deny <span class="sy0">=</span> <span class="br0">&#40;</span> <span class="st0">&quot;&quot;</span> <span class="br0">&#41;</span>
+	<span class="br0">&#125;</span>
+<span class="br0">&#125;</span></pre>
+</dd></dl>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Lighttpd&quot;,&quot;hid&quot;:&quot;lighttpd&quot;,&quot;codeblockOffset&quot;:2,&quot;secid&quot;:4,&quot;range&quot;:&quot;1105-&quot;} -->

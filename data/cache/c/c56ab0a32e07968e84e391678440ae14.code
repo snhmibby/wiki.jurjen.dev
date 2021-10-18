@@ -1,0 +1,16 @@
+<span class="re2">serves</span><span class="sy0">=</span><span class="st0">&quot;{ ssh www https }&quot;</span>
+<span class="re2">needs</span><span class="sy0">=</span><span class="st0">&quot;{ smtp whois domain ntp www https }&quot;</span>
+<span class="re2">icmp</span><span class="sy0">=</span><span class="st0">&quot;{ echorep echoreq unreach }&quot;</span>
+<span class="co0">#icmp6=&quot;{ 1 2 3 128 129 }&quot; #unreach, too big, time exceeded, echo request/reply</span>
+&nbsp;
+<span class="kw3">scrub</span> <span class="kw4">in</span> all
+<span class="kw3">set</span> <span class="kw3">skip</span> <span class="kw3">on</span> lo0
+&nbsp;
+<span class="co0">#pass quick all</span>
+<span class="kw2">block</span> log all
+&nbsp;
+<span class="kw1">pass</span> inet <span class="kw4">proto</span> icmp icmp-type <span class="re1">$icmp</span>
+<span class="kw1">pass</span> inet6 <span class="kw4">proto</span> ipv6-icmp
+&nbsp;
+<span class="kw1">pass</span> <span class="kw4">in</span> <span class="kw4">proto</span> tcp to port <span class="re1">$serves</span>
+<span class="kw1">pass</span> <span class="kw4">out</span> all <span class="kw3">keep</span> <span class="kw3">state</span>
