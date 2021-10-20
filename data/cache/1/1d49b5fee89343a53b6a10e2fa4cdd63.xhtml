@@ -1,32 +1,21 @@
 
 <h1 class="sectionedit1" id="put_configuration_in_a_git_repo">Put .configuration in a git repo</h1>
 <div class="level1">
-<ol>
-<li class="level1"><div class="li"> Create a folder for the git repo, initialize it</div>
-</li>
-<li class="level1"><div class="li"> <strong>hardlink</strong> all configuration file into the repo. If they are hidden files, just rename them to a normal file.</div>
-</li>
-<li class="level1"><div class="li"> Either automatically or manually push/pull the repo</div>
-</li>
-<li class="level1"><div class="li"> Take care of restarting services (possibly needs scripts)</div>
-</li>
-<li class="level1"><div class="li"> …</div>
-</li>
-<li class="level1"><div class="li"> ? Profit</div>
-</li>
-<li class="level1"><div class="li"> Bonus points for recreating the directory layout from / the doing <pre class="code">git clone config.git</pre>
-</div>
-</li>
-</ol>
 
 <p>
-All jokes aside, it&#039;s easy to 
+Simple methods for simple folks.
 </p>
-<pre class="code">git add</pre>
 
 <p>
- any system file once you touch it and then the git repo shows a prettynice overview of what is important for you.
-Difficult to keep 100% functional though. Better to use chef or ansible but any of those costs $$$ <img src="/lib/images/smileys/icon_razz.gif" class="icon" alt=":-P" />
+The first would be to initialize a git repo in the filesystem root folder and git add to there, this seems very simple, no need to mess around with symlinks etc, no set up needed, just git add shit. but also has potential for massive screw ups :)
+</p>
+
+<p>
+The other, more sensible method is to move each configuration file into the repo once before you edit it, and then soft link the system location to it. Takes some manual set up, but no chance of catastrophic failures. For installation you could write a shell script oneliner that installs symlinks for each file it finds in the repo.
+</p>
+
+<p>
+Neither option takes file ownership or permissions into account.
 </p>
 
 </div>

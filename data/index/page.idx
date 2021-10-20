@@ -15,3 +15,4 @@ configuration:jurjen.dev:pkg-list
 configuration:hackbook
 tricks:admin:git_etc_config
 bookmarks
+tricks:fetchmail_ssl

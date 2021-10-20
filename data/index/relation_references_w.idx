@@ -24,3 +24,4 @@ configuration:hackbook
 configuration:jurjen.dev:pkg-list
 tricks:admin:git_etc_config
 bookmarks
+tricks:fetchmail_ssl

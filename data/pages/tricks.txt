@@ -18,4 +18,8 @@
   * Google cloud/app engine has free trial
   * Heroku has free trial
   * Vultr has 'free' trial but requires paypal AND credit card
+  * TransIP offers 3 month free VPS, they seem professional but expensive
+  * iwStack also offers VPS they seem less professional but cheap
 
+===== Configuration =====
+  * [[tricks:fetchmail_ssl|Force fetchmail to use ssl]]

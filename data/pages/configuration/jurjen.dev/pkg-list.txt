@@ -4,6 +4,7 @@ Minimal list, doesn't include dependencies
   * git
   * bash
   * lighttpd
+  * sudo
   * [[https://golang.org|go]] (v1.17)
   * [[https://certbot.eff.org|py38-certbot]]
   * [[https://www.dokuwiki.org/|dokuwiki]]

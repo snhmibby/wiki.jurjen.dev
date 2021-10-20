@@ -1,0 +1,12 @@
+====== Force fetchmail to use tls ======
+
+Here is how to get your mail securely with fetchmail and pipe it into procmail
+<code>
+poll mail.example.com proto pop3:
+   user "user@example.com"
+   password "supersecret"
+   ssl sslcertck sslproto "tls1.2+"
+   fetchall
+   mda "/usr/bin/procmail -f %F -d %T";
+</code>
+

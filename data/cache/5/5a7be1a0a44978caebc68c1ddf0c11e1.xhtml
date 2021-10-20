@@ -1,0 +1,15 @@
+
+<h1 class="sectionedit1" id="force_fetchmail_to_use_tls">Force fetchmail to use tls</h1>
+<div class="level1">
+
+<p>
+Here is how to get your mail securely with fetchmail and pipe it into procmail
+</p>
+<pre class="code">poll mail.example.com proto pop3:
+   user &quot;user@example.com&quot;
+   password &quot;supersecret&quot;
+   ssl sslcertck sslproto &quot;tls1.2+&quot;
+   fetchall
+   mda &quot;/usr/bin/procmail -f %F -d %T&quot;;</pre>
+
+</div>
