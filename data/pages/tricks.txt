@@ -1,6 +1,11 @@
 ====== Computer links, tips & tricks ======
 
 ===== Programming =====
+
+==== Web ====
+
+  * [[https://www.dav-muz.net/blog/2013/09/how-to-use-go-and-fastcgi/|HOWTO: fcgi with go]]
+
 ==== Famous programmers/interesting reading ====
 
   * [[http://lamport.azurewebsites.net/pubs/pubs.html|Lamport]] didn't read much but probably interesting

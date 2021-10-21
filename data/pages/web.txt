@@ -1,0 +1,12 @@
+====== Learning to make websites ======
+Always knew the basics of HTML since I was a kid, but decided to start learning this properly at the end of 2021.
+
+===== What I found out so far: =====
+
+  * Writing CSS sucks, I settled on using [[Web:BootstrapCSS|BootStrap]]:
+    - Well documented
+    - Extremely popular, which means it is easy to find help and is well tested.
+  * Writing more than one HTML page without a [[Web:Template]] system seems nuts. I settled on learning [[Web:Hugo]]
+
+I know next to nothing about building websites, but it seems that creating/serving a static website with a [[Web:Template|template system]] and hosting '[[Web:Apps]]' somewhere else for dynamic content is a simple way of doing things. Let's try.
+

@@ -1,0 +1,25 @@
+====== Hugo Static Site Generator ======
+[[http://gohugo.io|Hugo]] basically generates a website by stitching together [[Web:Template|templates]] and content files. It can also run external commands to generate other assets (e.g. CSS with SASS, transpiled javascript, web assembly).
+
+
+
+===== Create a basic website in Hugo =====
+
+Unfortunately, the Hugo documentation is a bit dense and it is not very clear how to get started. Most common tutorials and even the official documentation is of no help since they just suggest to install a theme and crank out content.
+
+Fortunately, [[https://levelup.gitconnected.com/a-quick-tutorial-on-hugo-templates-creating-your-theme-a4102b42a85f|this tutorial]] starts from the ground up by creating a new theme and explaining how to get started with Hugo from basic building blocks.
+
+Actually, searching on "hugo" and "create theme" brings up much more usefull tutorials than "create website" kind of queries
+ --- //[[info@jurjen.dev|jurjen]] 2021/10/21 00:38//
+
+==== Steps to create a new basic website with a theme ====
+
+  - <code>hugo new site mysite</code>
+  - <code>hugo new theme mystyle</code>
+  - fill the created theme-templates in themes/mystyle/layouts
+    * index.html
+    * partials/: head.html, header.html, footer.html
+    * _default/: list.html, single.html
+  - add the theme to config.toml (theme="mystyle"), or optionally copy all  files and folders to the top level to not use a theme
+  - Add markdown content with hugo new <folder>/<name>.md, don't forget to set draft to false.
+

@@ -16,3 +16,8 @@ configuration:hackbook
 tricks:admin:git_etc_config
 bookmarks
 tricks:fetchmail_ssl
+web
+web:bootstrapcss
+web:template
+web:web
+web:hugo

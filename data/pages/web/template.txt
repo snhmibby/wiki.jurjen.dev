@@ -1,0 +1,19 @@
+====== Templates ======
+
+A template defines standard pieces of text and can have variables/loops/control flow to drive output. See e.g. [[https://pkg.go.dev/text/template]] for an example in the Go standard library.
+
+Template systems or (more old-fashioned) add-hoc approaches using text tools (say, awk or the C-preprocessor) have been used. Many web servers have support for dynamic templates.
+
+===== Static website generation =====
+Uses template systems to create static website content.
+
+==== Jekyll ====
+[[https://jekyllrb.com/]]
+  * Simple to use
+  * Extremely solid tutorial on main site, showcases everything you need to know to 'hit the ground running'
+  * Written in Ruby, which I don't know or understand or want to learn.
+
+==== Hugo ====
+[[https://gohugo.io|main site]], [[Web:Hugo|Hugo notes]]
+  * Written in Go, which is my new favourite [[Programming:Language]]
+  * Uses the standard template library from Go

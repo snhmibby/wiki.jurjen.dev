@@ -1,4 +1,4 @@
-a:2:{s:7:"current";a:9:{s:4:"date";a:2:{s:7:"created";i:1634585318;s:8:"modified";i:1634585973;}s:7:"creator";s:6:"jurjen";s:4:"user";s:6:"jurjen";s:11:"last_change";a:8:{s:4:"date";i:1634585973;s:2:"ip";s:13:"31.161.150.99";s:4:"type";s:1:"E";s:2:"id";s:9:"bookmarks";s:4:"user";s:6:"jurjen";s:3:"sum";s:0:"";s:5:"extra";s:0:"";s:10:"sizechange";i:-29;}s:11:"contributor";a:1:{s:6:"jurjen";s:6:"jurjen";}s:5:"title";s:5:"Links";s:11:"description";a:2:{s:15:"tableofcontents";a:5:{i:0;a:4:{s:3:"hid";s:5:"links";s:5:"title";s:5:"Links";s:4:"type";s:2:"ul";s:5:"level";i:1;}i:1;a:4:{s:3:"hid";s:6:"system";s:5:"title";s:6:"System";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:2;a:4:{s:3:"hid";s:7:"freebsd";s:5:"title";s:7:"FreeBSD";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:3;a:4:{s:3:"hid";s:3:"web";s:5:"title";s:3:"Web";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:4;a:4:{s:3:"hid";s:8:"cracking";s:5:"title";s:9:"+Cracking";s:4:"type";s:2:"ul";s:5:"level";i:2;}}s:8:"abstract";s:165:"Links
+a:2:{s:7:"current";a:9:{s:4:"date";a:2:{s:7:"created";i:1634585318;s:8:"modified";i:1634773361;}s:7:"creator";s:6:"jurjen";s:4:"user";s:6:"jurjen";s:11:"last_change";a:8:{s:4:"date";i:1634773361;s:2:"ip";s:12:"31.161.189.6";s:4:"type";s:1:"E";s:2:"id";s:9:"bookmarks";s:4:"user";s:6:"jurjen";s:3:"sum";s:25:"[Static site generators] ";s:5:"extra";s:0:"";s:10:"sizechange";i:120;}s:11:"contributor";a:1:{s:6:"jurjen";s:6:"jurjen";}s:5:"title";s:5:"Links";s:11:"description";a:2:{s:15:"tableofcontents";a:6:{i:0;a:4:{s:3:"hid";s:5:"links";s:5:"title";s:5:"Links";s:4:"type";s:2:"ul";s:5:"level";i:1;}i:1;a:4:{s:3:"hid";s:6:"system";s:5:"title";s:6:"System";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:2;a:4:{s:3:"hid";s:7:"freebsd";s:5:"title";s:7:"FreeBSD";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:3;a:4:{s:3:"hid";s:3:"web";s:5:"title";s:3:"Web";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:4;a:4:{s:3:"hid";s:22:"static_site_generators";s:5:"title";s:22:"Static site generators";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:5;a:4:{s:3:"hid";s:8:"cracking";s:5:"title";s:9:"+Cracking";s:4:"type";s:2:"ul";s:5:"level";i:2;}}s:8:"abstract";s:382:"Links
 
 	*  My github
 
@@ -11,9 +11,15 @@ FreeBSD
 
 Web
 
-	*  Mozilla www docs
-	*  <http://w3schools.com>
+	*  Mozilla Developer Network
+	*  W3Schools basic web tutorials
+	*  Bootstrap documentation
+	*  sass documentation
 
-+Cracking
+Static site generators
 
-	*  malattia reversing puzzles";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}s:8:"relation";a:1:{s:10:"firstimage";s:0:"";}}s:10:"persistent";a:5:{s:4:"date";a:2:{s:7:"created";i:1634585318;s:8:"modified";i:1634585973;}s:7:"creator";s:6:"jurjen";s:4:"user";s:6:"jurjen";s:11:"last_change";a:8:{s:4:"date";i:1634585973;s:2:"ip";s:13:"31.161.150.99";s:4:"type";s:1:"E";s:2:"id";s:9:"bookmarks";s:4:"user";s:6:"jurjen";s:3:"sum";s:0:"";s:5:"extra";s:0:"";s:10:"sizechange";i:-29;}s:11:"contributor";a:1:{s:6:"jurjen";s:6:"jurjen";}}}
+	*  Jekyll Nice. Simple to learn. But it is Ruby
+
+Hugo
+
+	*  Hugo Not that simple, but uses Go and the Go standard library templates. Also seams more fancy than Jekyll.";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}s:8:"relation";a:1:{s:10:"firstimage";s:0:"";}}s:10:"persistent";a:5:{s:4:"date";a:2:{s:7:"created";i:1634585318;s:8:"modified";i:1634773361;}s:7:"creator";s:6:"jurjen";s:4:"user";s:6:"jurjen";s:11:"last_change";a:8:{s:4:"date";i:1634773361;s:2:"ip";s:12:"31.161.189.6";s:4:"type";s:1:"E";s:2:"id";s:9:"bookmarks";s:4:"user";s:6:"jurjen";s:3:"sum";s:25:"[Static site generators] ";s:5:"extra";s:0:"";s:10:"sizechange";i:120;}s:11:"contributor";a:1:{s:6:"jurjen";s:6:"jurjen";}}}

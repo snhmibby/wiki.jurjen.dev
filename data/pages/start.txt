@@ -2,5 +2,6 @@
 Here I am keeping (mostly) computer related links, tricks and thoughts I find interesting.
 
   * [[Configuration|Host configuration notes]]
-  * [[Tricks|Tricks, Tips]]
+  * [[Tricks|Computer Tricks & Tips]]
+  * [[Web| Notes on HTML/CSS/site building etc.]]  
   * [[Bookmarks]]

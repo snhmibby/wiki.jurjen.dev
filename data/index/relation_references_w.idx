@@ -25,3 +25,12 @@ configuration:jurjen.dev:pkg-list
 tricks:admin:git_etc_config
 bookmarks
 tricks:fetchmail_ssl
+web_programming
+web
+web:bootstrapcss
+web:template
+web:apps
+web:web
+web:hugo
+programming:language
+web:templates
