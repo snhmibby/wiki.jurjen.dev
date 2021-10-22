@@ -13,6 +13,7 @@
   * [[http://w3schools.com|W3Schools]] basic web tutorials
   * [[https://getbootstrap.com/docs|Bootstrap]] documentation
   * [[https://sass-lang.com/documentation|sass documentation]]
+  * [[https://github.com/Donearm/awesome-tutorials/|List of cool tutorials]]
 
 ==== Static site generators ====
   * [[https://jekyllrb.com/|Jekyll]] Nice. Simple to learn. But it is Ruby
@@ -22,6 +23,8 @@
   * [[https://levelup.gitconnected.com/a-quick-tutorial-on-hugo-templates-creating-your-theme-a4102b42a85f|Hugo theme tutorial]] A tutorial that makes its own theme and template instead of using a pre-cooked one.
   * [[https://gohugo.io/categories/fundamentals|fundamentals]] on the Hugo site.
   * [[https://retrolog.io/blog/creating-a-hugo-theme-from-scratch/|Tutorial on creating a basic theme using bootstrap]]
+  * [[https://simpleit.rocks/golang/hugo/customizing-bootstrap-with-hugo-pipes/|Set up a pipeline for bootstrap/sass]]
+
 
 
 ===== +Cracking =====
