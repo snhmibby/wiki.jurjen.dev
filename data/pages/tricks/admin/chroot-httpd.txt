@@ -1,0 +1,4 @@
+====== Run Lighttpd in a chroot ======
+With php-fcgi (because of, rather :)
+
+I didn't implement this yet, but fully intent to when I have time and document it here when I do!

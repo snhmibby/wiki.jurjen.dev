@@ -10,7 +10,6 @@ Uses template systems to create static website content.
 ==== Jekyll ====
 [[https://jekyllrb.com/]]
   * Simple to use
-  * Extremely solid tutorial on main site, showcases everything you need to know to 'hit the ground running'
   * Written in Ruby, which I don't know or understand or want to learn.
 
 ==== Hugo ====

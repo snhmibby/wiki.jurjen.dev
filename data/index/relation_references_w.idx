@@ -34,3 +34,4 @@ web:web
 web:hugo
 programming:language
 web:templates
+tricks:admin:chroot-httpd

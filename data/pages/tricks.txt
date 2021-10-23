@@ -18,6 +18,7 @@
   * [[tricks:git_and_lighttpd|Block .git directory access in lighttpd]]
   * Use [[https://certbot.eff.org|certbot]] to easily manage free ssl certificates
   * [[tricks:admin:git_etc_config|How to put configuration files in a git repo]]
+  * [[tricks:admin:chroot-httpd|Run Lighttpd in a chroot]]
 
 ==== Free hosts/limited trial ====
   * Google cloud/app engine has free trial
