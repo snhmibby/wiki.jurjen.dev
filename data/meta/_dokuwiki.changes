@@ -122,3 +122,5 @@
 1634948140	188.206.110.101	E	configuration:jurjen.dev	jurjen	[Extra hacks] 		58
 1634948218	188.206.110.101	C	tricks:admin:chroot-httpd	jurjen	created		175
 1634948256	188.206.110.101	E	tricks	jurjen	[Admin] 		59
+1634955666	62.133.99.33	E	configuration:jurjen.dev:pkg-list	jurjen			-42
+1635019692	89.200.47.58	E	configuration:jurjen.dev:pkg-list	jurjen			10

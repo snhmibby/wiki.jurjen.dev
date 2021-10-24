@@ -1,10 +1,11 @@
 ====== Installed pkg ======
-Minimal list, doesn't include dependencies
+
   * vim
   * git
   * bash
   * lighttpd
   * sudo
+  * rsync
   * [[https://golang.org|go]] (v1.17)
   * [[https://certbot.eff.org|py38-certbot]]
   * [[https://www.dokuwiki.org/|dokuwiki]]
