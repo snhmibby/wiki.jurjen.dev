@@ -8,12 +8,17 @@
   * [[http://freebsd.org/doc/en/handbook|Handbook]]
   * [[https://www.freebsd.org/cgi/man.cgi|Manual pages]]
 
-===== Web =====
+===== Frontend Web =====
   * [[https://developer.mozilla.org/en-US/docs/Web |Mozilla Developer Network]]
   * [[http://w3schools.com|W3Schools]] basic web tutorials
   * [[https://getbootstrap.com/docs|Bootstrap]] documentation
-  * [[https://sass-lang.com/documentation|sass documentation]]
   * [[https://github.com/Donearm/awesome-tutorials/|List of cool tutorials]]
+  * [[https://css-tricks.com/quick-whats-the-difference-between-flexbox-and-grid/]]
+
+==== CSS/SASS ====
+  * [[https://devhints.io/sass|SASS cheatsheet]]
+  * [[https://sass-lang.com/documentation|sass documentation]]
+  * [[https://flexbox.malven.co/|flexbox cheatsheet]]
 
 ==== Static site generators ====
   * [[https://jekyllrb.com/|Jekyll]] Nice. Simple to learn. But it is Ruby
