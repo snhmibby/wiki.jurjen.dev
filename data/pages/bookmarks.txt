@@ -15,10 +15,15 @@
   * [[https://github.com/Donearm/awesome-tutorials/|List of cool tutorials]]
   * [[https://css-tricks.com/quick-whats-the-difference-between-flexbox-and-grid/]]
 
-==== CSS/SASS ====
+==== CSS/SASS/Design stuff ====
   * [[https://devhints.io/sass|SASS cheatsheet]]
   * [[https://sass-lang.com/documentation|sass documentation]]
   * [[https://flexbox.malven.co/|flexbox cheatsheet]]
+  * [[https://jonsuh.com/hamburgers/|CSS animated menu hamburgers]]
+  * [[https://www.frontendmentor.io/home|CSS layout practice challenges]]
+
+=== Nice free stylesheets ===
+  * [[https://github.com/oxalorg/sakura|Sakura]] modern defaults for standard HTML tags. comes with themes.
 
 ==== Static site generators ====
   * [[https://jekyllrb.com/|Jekyll]] Nice. Simple to learn. But it is Ruby

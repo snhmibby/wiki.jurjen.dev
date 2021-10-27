@@ -1,52 +1,3 @@
-1634563468	62.133.100.146	E	jurjen.dev-config_files	jurjen	[Lighttpd] 		114
-1634563542	62.133.100.146	E	jurjen.dev-config_files	jurjen	[Lighttpd] 		-54
-1634566962	83.232.57.179	E	configuration	jurjen			28
-1634567573	83.232.57.179	C	configuration:jurjen.dev	jurjen	created		690
-1634567596	83.232.57.179	E	configuration:jurjen.dev	jurjen	[configuration: jurjen.dev] 		-15
-1634567823	83.232.57.179	C	configuration:jurjen.dev:pkg-list	jurjen	created		153
-1634567903	83.232.57.179	E	configuration:jurjen.dev	jurjen	[Extra hacks] 		118
-1634567943	83.232.57.179	E	configuration:jurjen.dev	jurjen	[Extra hacks] 		36
-1634567978	83.232.57.179	E	configuration:jurjen.dev	jurjen	[jurjen.dev] 		-10
-1634568023	83.232.57.179	E	configuration:jurjen.dev	jurjen	[jurjen.dev] 		95
-1634568365	83.232.57.179	C	configuration:hackbook	jurjen	created		469
-1634568401	83.232.57.179	E	configuration:hackbook	jurjen			2
-1634568698	83.232.57.179	E	configuration:hackbook	jurjen			190
-1634568836	83.232.57.179	D	hackbook	jurjen	removed		-66
-1634568941	83.232.57.179	D	jurjen.dev-config_files	jurjen	removed		-2895
-1634568976	83.232.57.179	D	jurjen.dev-installed_packages	jurjen	removed		-254
-1634569001	83.232.57.179	D	jurjen.dev	jurjen	removed		-146
-1634569315	83.232.57.179	E	tricks	jurjen			359
-1634571236	83.232.57.179	E	tricks	jurjen			169
-1634571489	83.232.57.179	E	configuration:jurjen.dev	jurjen	[Basic info] 		79
-1634572268	83.232.57.179	E	start	jurjen			21
-1634572342	83.232.57.179	E	tricks	jurjen	[Admin] 		81
-1634572503	83.232.57.179	C	tricks:admin:git_etc_config	jurjen	created		394
-1634572551	83.232.57.179	E	tricks:admin:git_etc_config	jurjen			-2
-1634572598	83.232.57.179	E	tricks:admin:git_etc_config	jurjen			-37
-1634572964	83.232.57.179	E	configuration:jurjen.dev	jurjen	[Basic info] 		47
-1634578569	31.161.150.135	E	configuration:jurjen.dev	jurjen	[Extra hacks] 		148
-1634578624	31.161.150.135	E	configuration:jurjen.dev	jurjen			-81
-1634580271	31.161.202.222	E	configuration:jurjen.dev:pkg-list	jurjen			50
-1634580323	31.161.202.222	E	configuration:jurjen.dev:pkg-list	jurjen			81
-1634583732	62.133.100.250	E	configuration:jurjen.dev	jurjen			0
-1634583964	62.133.100.250	E	tricks	jurjen	[Admin] 		-1
-1634585007	62.133.100.250	E	tricks	jurjen			24
-1634585047	62.133.100.250	E	start	jurjen			10
-1634585318	62.133.100.250	C	bookmarks	jurjen	created		331
-1634585730	31.161.150.99	D	programming	jurjen	removed		-317
-1634585777	31.161.150.99	E	start	jurjen			-20
-1634585943	31.161.150.99	E	bookmarks	jurjen			116
-1634585973	31.161.150.99	E	bookmarks	jurjen			-29
-1634587504	31.161.150.99	E	tricks:admin:git_etc_config	jurjen			373
-1634589524	188.206.109.66	E	configuration:jurjen.dev	jurjen	[jurjen.dev] 		1
-1634622803	89.200.35.142	E	tricks	jurjen	[Free hosts/limited trial] 		140
-1634623168	89.200.35.142	E	configuration:jurjen.dev:pkg-list	jurjen			9
-1634623429	89.200.35.142	E	tricks:admin:git_etc_config	jurjen			-59
-1634624340	89.200.35.142	E	tricks:admin:git_etc_config	jurjen			474
-1634625741	89.200.35.142	E	tricks:admin:git_etc_config	jurjen	[Put .configuration in a git repo] 		121
-1634625769	89.200.35.142	E	tricks:admin:git_etc_config	jurjen	[symlink path] 		-532
-1634648107	83.232.57.148	E	tricks	jurjen			81
-1634649011	83.232.57.148	C	tricks:fetchmail_ssl	jurjen	created		312
 1634719141	2a02:1810:cd2f:3500:5e96:9dff:fe83:abb1	E	tricks	jurjen	[Programming] 		209
 1634719183	2a02:1810:cd2f:3500:5e96:9dff:fe83:abb1	E	tricks:fetchmail_ssl	jurjen			-12
 1634719683	2a02:1810:cd2f:3500:5e96:9dff:fe83:abb1	E	tricks	jurjen	[Web] 		-100
@@ -99,3 +50,5 @@
 1635181658	188.206.99.57	E	bookmarks	jurjen			93
 1635181992	188.206.99.57	E	bookmarks	jurjen			69
 1635188472	188.206.100.168	E	bookmarks	jurjen	[CSS/SASS] 		54
+1635227575	31.161.187.52	E	bookmarks	jurjen	[CSS/SASS] 		155
+1635227989	31.161.187.52	E	bookmarks	jurjen	[CSS/SASS/Design stuff] 		139
