@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generator="FeedCreator 1.8" -->
+<?xml-stylesheet href="https://wiki.jurjen.dev/lib/exe/css.php?s=feed" type="text/css"?>
+<rdf:RDF
+    xmlns="http://purl.org/rss/1.0/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel rdf:about="https://wiki.jurjen.dev/feed.php">
+        <title>wiki.jurjen.dev</title>
+        <description></description>
+        <link>https://wiki.jurjen.dev/</link>
+        <image rdf:resource="https://wiki.jurjen.dev/lib/tpl/dokuwiki/images/favicon.ico" />
+       <dc:date>2021-10-28T17:29:49+00:00</dc:date>
+        <items>
+            <rdf:Seq>
+                <rdf:li rdf:resource="https://wiki.jurjen.dev/doku.php/bookmarks?rev=1635343531&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.jurjen.dev/doku.php/configuration?rev=1634566962&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.jurjen.dev/doku.php/freebsd?rev=1634539770&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.jurjen.dev/doku.php/start?rev=1634757774&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.jurjen.dev/doku.php/tricks?rev=1635064585&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.jurjen.dev/doku.php/web?rev=1635181547&amp;do=diff"/>
+            </rdf:Seq>
+        </items>
+    </channel>
+    <image rdf:about="https://wiki.jurjen.dev/lib/tpl/dokuwiki/images/favicon.ico">
+        <title>wiki.jurjen.dev</title>
+        <link>https://wiki.jurjen.dev/</link>
+        <url>https://wiki.jurjen.dev/lib/tpl/dokuwiki/images/favicon.ico</url>
+    </image>
+    <item rdf:about="https://wiki.jurjen.dev/doku.php/bookmarks?rev=1635343531&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-10-27T14:05:31+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>bookmarks</title>
+        <link>https://wiki.jurjen.dev/doku.php/bookmarks?rev=1635343531&amp;do=diff</link>
+        <description>Links
+
+	*  My github
+
+System
+
+FreeBSD
+
+	*  Handbook
+	*  Manual pages
+
+Frontend Web
+
+	*  Mozilla Developer Network
+	*  W3Schools basic web tutorials
+	*  Bootstrap documentation
+	*  List of cool tutorials
+	*  &lt;https://css-tricks.com/quick-whats-the-difference-between-flexbox-and-grid/&gt;
+
+CSS/SASS/Design stuff
+
+	*  SASS cheatsheet
+	*  sass documentation
+	*  flexbox cheatsheet
+	*  CSS animated menu hamburgers
+	*  CSS layout practice challenges
+
+Nice free stylesheets
+
+	*  Sakura modern defaults for st…</description>
+    </item>
+    <item rdf:about="https://wiki.jurjen.dev/doku.php/configuration?rev=1634566962&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-10-18T14:22:42+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>configuration</title>
+        <link>https://wiki.jurjen.dev/doku.php/configuration?rev=1634566962&amp;do=diff</link>
+        <description>Host configuration notes
+
+Some machines and how they are set up...sort of
+
+	*  jurjen.dev, FreeBSD 13 (handbook), vps, registar 
+Hosts my website, this wiki and go playground
+	*  hackbook, Debian 11, macbook pro</description>
+    </item>
+    <item rdf:about="https://wiki.jurjen.dev/doku.php/freebsd?rev=1634539770&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-10-18T06:49:30+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>freebsd</title>
+        <link>https://wiki.jurjen.dev/doku.php/freebsd?rev=1634539770&amp;do=diff</link>
+        <description>By far the better server OS when compared to Linux, or most Linux distributions.
+
+The separation between system and installed packages and lack of nonsense make it far preferrable and easier to comprehend than a default linux installation. The amount of crappy background programs, configuration daemons and general crap running with a default Linux installation is plain uncomfortable. The Linux /etc tree reminds me of win32. Fuck that shit.</description>
+    </item>
+    <item rdf:about="https://wiki.jurjen.dev/doku.php/start?rev=1634757774&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-10-20T19:22:54+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>start</title>
+        <link>https://wiki.jurjen.dev/doku.php/start?rev=1634757774&amp;do=diff</link>
+        <description>Welcome to my wiki
+
+Here I am keeping (mostly) computer related links, tricks and thoughts I find interesting.
+
+	*  Host configuration notes
+	*  Computer Tricks &amp; Tips
+	*   Notes on HTML/CSS/site building etc.  
+	*  Bookmarks</description>
+    </item>
+    <item rdf:about="https://wiki.jurjen.dev/doku.php/tricks?rev=1635064585&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-10-24T08:36:25+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>tricks</title>
+        <link>https://wiki.jurjen.dev/doku.php/tricks?rev=1635064585&amp;do=diff</link>
+        <description>Computer links, tips &amp; tricks
+
+Programming
+
+Web
+
+	*  HOWTO: fcgi with go
+
+CSS
+
+	*  &lt;https://css-tricks.com&gt; well written articles.
+
+Admin
+
+	*  &lt;https://gandi.net&gt; nice registrar
+	*  &lt;https://transip.nl&gt; FreeBSD vps/cloud host I'm using atm.
+	*  Block .git directory access in lighttpd
+	*  Use certbot to easily manage free ssl certificates
+	*  How to put configuration files in a git repo
+	*  Run Lighttpd in a chroot
+
+Free hosts/limited trial
+
+	*</description>
+    </item>
+    <item rdf:about="https://wiki.jurjen.dev/doku.php/web?rev=1635181547&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-10-25T17:05:47+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>web</title>
+        <link>https://wiki.jurjen.dev/doku.php/web?rev=1635181547&amp;do=diff</link>
+        <description>Tutorials
+
+See also my [tutorials](jurjen.dev/tutorial) for fast &amp; simple tutorials on beginner web programming subjects.</description>
+    </item>
+</rdf:RDF>
