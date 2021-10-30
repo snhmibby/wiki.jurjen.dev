@@ -7,6 +7,10 @@
 ==== FreeBSD ====
   * [[http://freebsd.org/doc/en/handbook|Handbook]]
   * [[https://www.freebsd.org/cgi/man.cgi|Manual pages]]
+  * 
+===== Backend Web =====
+  * [[https://astaxie.gitbooks.io/build-web-application-with-golang/content/en/|Go web app intro]]
+  * [[https://github.com/gorilla/|gorilla toolkit]]
 
 ===== Frontend Web =====
   * [[https://developer.mozilla.org/en-US/docs/Web |Mozilla Developer Network]]
@@ -33,8 +37,8 @@
   * [[https://jekyllrb.com/|Jekyll]] Nice. Simple to learn. But it is Ruby
 === Hugo ===
 
-  * [[https://gohugo.io/|Hugo]] Not that simple, but uses Go and the Go standard library templates. Also seams more fancy than Jekyll.
-  * [[https://levelup.gitconnected.com/a-quick-tutorial-on-hugo-templates-creating-your-theme-a4102b42a85f|Hugo theme tutorial]] A tutorial that makes its own theme and template instead of using a pre-cooked one.
+  * [[https://gohugo.io/|Hugo]] Static site generator using Go templates.
+  * [[https://levelup.gitconnected.com/a-quick-tutorial-on-hugo-templates-creating-your-theme-a4102b42a85f|Hugo theme tutorial]] A tutorial that makes a theme.
   * [[https://gohugo.io/categories/fundamentals|fundamentals]] on the Hugo site.
   * [[https://retrolog.io/blog/creating-a-hugo-theme-from-scratch/|Tutorial on creating a basic theme using bootstrap]]
   * [[https://simpleit.rocks/golang/hugo/customizing-bootstrap-with-hugo-pipes/|Set up a pipeline for bootstrap/sass]]

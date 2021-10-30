@@ -1,38 +1,3 @@
-1634719141	2a02:1810:cd2f:3500:5e96:9dff:fe83:abb1	E	tricks	jurjen	[Programming] 		209
-1634719183	2a02:1810:cd2f:3500:5e96:9dff:fe83:abb1	E	tricks:fetchmail_ssl	jurjen			-12
-1634719683	2a02:1810:cd2f:3500:5e96:9dff:fe83:abb1	E	tricks	jurjen	[Web] 		-100
-1634731149	2a02:1810:cd2f:3500:5e96:9dff:fe83:abb1	E	bookmarks	jurjen	[Web] 		101
-1634735367	2a02:1810:cd2f:3500:5e96:9dff:fe83:abb1	E	bookmarks	jurjen	[Web] 		71
-1634737225	2a02:1810:cd2f:3500:5e96:9dff:fe83:abb1	E	bookmarks	jurjen	[Web] 		64
-1634757590	31.161.188.150	E	bookmarks	jurjen	[Web] 		440
-1634757677	31.161.188.150	E	start	jurjen			24
-1634757760	31.161.188.150	E	start	jurjen			38
-1634757774	31.161.188.150	E	start	jurjen			0
-1634758677	31.161.188.150	C	web	jurjen	created		597
-1634758787	31.161.188.150	C	web:bootstrapcss	jurjen	created		103
-1634758817	31.161.188.150	E	web:bootstrapcss	jurjen			-3
-1634759219	31.161.188.150	C	web:template	jurjen	created		472
-1634759243	31.161.188.150	E	web:template	jurjen			37
-1634759411	31.161.188.150	E	web	jurjen	[What i found out so far:] 		103
-1634760283	31.161.188.150	C	web:web	jurjen	created		860
-1634760592	31.161.188.150	E	web	jurjen	[What I found out so far:] 		35
-1634760926	31.161.188.150	D	web:web	jurjen	removed		-860
-1634761023	31.161.188.150	E	web:template	jurjen			745
-1634761050	31.161.188.150	E	web:template	jurjen			-2
-1634761086	31.161.188.150	E	web:template	jurjen	[Hugo] 		-328
-1634761530	31.161.188.150	C	web:hugo	jurjen	created		560
-1634761544	31.161.188.150	E	web:hugo	jurjen	[Learning Hugo] 		1
-1634761596	31.161.188.150	E	web:hugo	jurjen			9
-1634762508	31.161.188.150	E	web:hugo	jurjen			384
-1634762608	31.161.188.150	E	web:hugo	jurjen	[Hugo Static Site Generator] 		77
-1634769577	31.161.189.6	E	bookmarks	jurjen			40
-1634769709	31.161.189.6	E	tricks:admin:git_etc_config	jurjen			-2
-1634769966	31.161.189.6	E	web:hugo	jurjen			-211
-1634773361	31.161.189.6	E	bookmarks	jurjen	[Static site generators] 		120
-1634775958	31.161.189.6	E	web:hugo	jurjen	[Create a basic website in Hugo] 		366
-1634776227	31.161.189.6	E	web:hugo	jurjen	[Steps to create a new basic website with a theme] 		78
-1634776286	31.161.189.6	E	web:hugo	jurjen	[Steps to create a new basic website with a theme] 		58
-1634776782	31.161.189.6	E	web:hugo	jurjen			179
 1634777269	31.161.189.6	E	web:hugo	jurjen	[Steps to create a new basic website with a theme] 		37
 1634829774	2a02:1810:cd2f:3500:5e96:9dff:fe83:abb1	E	bookmarks	jurjen	[Static site generators] 		116
 1634835116	2a02:1810:cd2f:3500:5e96:9dff:fe83:abb1	E	bookmarks	jurjen	[Static site generators] 		4
@@ -53,3 +18,5 @@
 1635227575	31.161.187.52	E	bookmarks	jurjen	[CSS/SASS] 		155
 1635227989	31.161.187.52	E	bookmarks	jurjen	[CSS/SASS/Design stuff] 		139
 1635343531	78.24.175.81	E	bookmarks	jurjen	[CSS/SASS/Design stuff] 		113
+1635497816	188.206.69.97	E	bookmarks	jurjen	[Static site generators] 		-114
+1635497903	188.206.69.97	E	bookmarks	jurjen			180
