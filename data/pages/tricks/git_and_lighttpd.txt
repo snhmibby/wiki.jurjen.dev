@@ -1,5 +1,8 @@
 ====== Use git to store your site ======
 
+I've switched for a while now to just using rsync.
+ --- //[[info@jurjen.dev|jurjen]] 2021/10/31 12:20//
+
 You can use git to easily pull your website onto the server and work on it on another computer.
 
 It shouldn't matter, but for ease of mind,be sure to block the .git directory in lighttpd, like so:

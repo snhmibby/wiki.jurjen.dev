@@ -42,6 +42,7 @@
   * [[https://gohugo.io/categories/fundamentals|fundamentals]] on the Hugo site.
   * [[https://retrolog.io/blog/creating-a-hugo-theme-from-scratch/|Tutorial on creating a basic theme using bootstrap]]
   * [[https://simpleit.rocks/golang/hugo/customizing-bootstrap-with-hugo-pipes/|Set up a pipeline for bootstrap/sass]]
+  * [[https://www.wictorwilen.se/blog/how-to-add-a-react-script-to-hugo/|Hugo + set up babel for React.js]]
 
 
 
