@@ -35,3 +35,7 @@ web:hugo
 programming:language
 web:templates
 tricks:admin:chroot-httpd
+gcloud
+heroku
+configuration:labs.jurjen.dev
+configuration:labs.jurjen.dev:pkg

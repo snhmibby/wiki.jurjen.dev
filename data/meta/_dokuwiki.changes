@@ -19,3 +19,10 @@
 1635497903	188.206.69.97	E	bookmarks	jurjen			180
 1635682922	83.232.58.180	E	tricks:git_and_lighttpd	jurjen			105
 1635717807	83.232.59.33	E	bookmarks	jurjen	[Static site generators] 		108
+1635769346	2a02:1810:cd2f:3500:5e96:9dff:fe83:abb1	E	start	jurjen			34
+1635775280	2a02:1810:cd2f:3500:5e96:9dff:fe83:abb1	E	start	jurjen			-6
+1635775311	2a02:1810:cd2f:3500:5e96:9dff:fe83:abb1	C	heroku	jurjen	created		57
+1635781411	2a02:1810:cd2f:3500:5e96:9dff:fe83:abb1	E	heroku	jurjen			381
+1635793229	188.206.73.95	E	configuration	jurjen			144
+1635793347	188.206.73.95	C	configuration:labs.jurjen.dev	jurjen	created		106
+1635793506	188.206.73.95	C	configuration:labs.jurjen.dev:pkg	jurjen	created		33

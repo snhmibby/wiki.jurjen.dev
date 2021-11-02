@@ -22,3 +22,6 @@ web:template
 web:web
 web:hugo
 tricks:admin:chroot-httpd
+heroku
+configuration:labs.jurjen.dev
+configuration:labs.jurjen.dev:pkg

@@ -1,0 +1,3 @@
+====== Configuration on labs.jurjen.dev ======
+
+  * [[configuration:labs.jurjen.dev:pkg|installed pkg's]]

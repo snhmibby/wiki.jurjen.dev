@@ -1,5 +1,6 @@
 ====== Host configuration notes ======
 Some machines and how they are set up...sort of
  
+  * [[configuration:labs.jurjen.dev]] [[http://freebsd.org|FreeBSD]] 13, [[https://vultr.com|vps]] - vultr is almost half cheaper than transip.
   * [[configuration:jurjen.dev]], [[http://freebsd.org|FreeBSD]] 13 ([[https://docs.freebsd.org/en/books/handbook/|handbook]]), [[https://www.transip.nl|vps]], [[https://gandi.net|registar]] \\ Hosts my website, this wiki and go playground
   * [[configuration:hackbook]], [[https://www.debian.org|Debian]] 11, macbook pro

@@ -3,7 +3,7 @@
 <div class="level1">
 
 <p>
-<a href="https://www.dokuwiki.org/DokuWiki" class="interwiki iw_doku" title="https://www.dokuwiki.org/DokuWiki">DokuWiki</a> supports some simple markup language, which tries to make the datafiles to be as readable as possible. This page contains all possible syntax you may use when editing the pages. Simply have a look at the source of this page by pressing “Edit this page”. If you want to try something, just use the <a href="/doku.php?id=playground:playground" class="wikilink1" title="playground:playground" data-wiki-id="playground:playground">playground</a> page. The simpler markup is easily accessible via <a href="https://www.dokuwiki.org/toolbar" class="interwiki iw_doku" title="https://www.dokuwiki.org/toolbar">quickbuttons</a>, too.
+<a href="https://www.dokuwiki.org/DokuWiki" class="interwiki iw_doku" title="https://www.dokuwiki.org/DokuWiki">DokuWiki</a> supports some simple markup language, which tries to make the datafiles to be as readable as possible. This page contains all possible syntax you may use when editing the pages. Simply have a look at the source of this page by pressing “Edit this page”. If you want to try something, just use the <a href="/doku.php/playground:playground" class="wikilink1" title="playground:playground" data-wiki-id="playground:playground">playground</a> page. The simpler markup is easily accessible via <a href="https://www.dokuwiki.org/toolbar" class="interwiki iw_doku" title="https://www.dokuwiki.org/toolbar">quickbuttons</a>, too.
 </p>
 
 </div>
@@ -75,7 +75,7 @@ addresses like this one: &lt;andi@splitbrain.org&gt; are recognized, too.</pre>
 <div class="level3">
 
 <p>
-Internal links are created by using square brackets. You can either just give a <a href="/doku.php?id=wiki:pagename" class="wikilink2" title="wiki:pagename" rel="nofollow" data-wiki-id="wiki:pagename">pagename</a> or use an additional <a href="/doku.php?id=wiki:pagename" class="wikilink2" title="wiki:pagename" rel="nofollow" data-wiki-id="wiki:pagename">link text</a>.
+Internal links are created by using square brackets. You can either just give a <a href="/doku.php/wiki:pagename" class="wikilink2" title="wiki:pagename" rel="nofollow" data-wiki-id="wiki:pagename">pagename</a> or use an additional <a href="/doku.php/wiki:pagename" class="wikilink2" title="wiki:pagename" rel="nofollow" data-wiki-id="wiki:pagename">link text</a>.
 </p>
 <pre class="code">Internal links are created by using square brackets. You can either just give
 a [[pagename]] or use an additional [[pagename|link text]].</pre>
@@ -85,7 +85,7 @@ a [[pagename]] or use an additional [[pagename|link text]].</pre>
 </p>
 
 <p>
-You can use <a href="/doku.php?id=some:namespaces" class="wikilink2" title="some:namespaces" rel="nofollow" data-wiki-id="some:namespaces">namespaces</a> by using a colon in the pagename.
+You can use <a href="/doku.php/some:namespaces" class="wikilink2" title="some:namespaces" rel="nofollow" data-wiki-id="some:namespaces">namespaces</a> by using a colon in the pagename.
 </p>
 <pre class="code">You can use [[some:namespaces]] by using a colon in the pagename.</pre>
 
@@ -94,7 +94,7 @@ For details about namespaces see <a href="https://www.dokuwiki.org/namespaces" c
 </p>
 
 <p>
-Linking to a specific section is possible, too. Just add the section name behind a hash character as known from <abbr title="HyperText Markup Language">HTML</abbr>. This links to <a href="/doku.php?id=wiki:syntax#internal" class="wikilink1" title="wiki:syntax" data-wiki-id="wiki:syntax">this Section</a>.
+Linking to a specific section is possible, too. Just add the section name behind a hash character as known from <abbr title="HyperText Markup Language">HTML</abbr>. This links to <a href="/doku.php/wiki:syntax#internal" class="wikilink1" title="wiki:syntax" data-wiki-id="wiki:syntax">this Section</a>.
 </p>
 <pre class="code">This links to [[syntax#internal|this Section]].</pre>
 
@@ -102,7 +102,7 @@ Linking to a specific section is possible, too. Just add the section name behind
 Notes:
 </p>
 <ul>
-<li class="level1"><div class="li"> Links to <a href="/doku.php?id=wiki:syntax" class="wikilink1" title="wiki:syntax" data-wiki-id="wiki:syntax">existing pages</a> are shown in a different style from <a href="/doku.php?id=wiki:nonexisting" class="wikilink2" title="wiki:nonexisting" rel="nofollow" data-wiki-id="wiki:nonexisting">nonexisting</a> ones.</div>
+<li class="level1"><div class="li"> Links to <a href="/doku.php/wiki:syntax" class="wikilink1" title="wiki:syntax" data-wiki-id="wiki:syntax">existing pages</a> are shown in a different style from <a href="/doku.php/wiki:nonexisting" class="wikilink2" title="wiki:nonexisting" rel="nofollow" data-wiki-id="wiki:nonexisting">nonexisting</a> ones.</div>
 </li>
 <li class="level1"><div class="li"> DokuWiki does not use <a href="https://en.wikipedia.org/wiki/CamelCase" class="interwiki iw_wp" title="https://en.wikipedia.org/wiki/CamelCase">CamelCase</a> to automatically create links by default, but this behavior can be enabled in the <a href="https://www.dokuwiki.org/config" class="interwiki iw_doku" title="https://www.dokuwiki.org/config">config</a> file. Hint: If DokuWiki is a link, then it&#039;s enabled.</div>
 </li>
@@ -138,7 +138,7 @@ Notes:
 <li class="level1"><div class="li"> For security reasons direct browsing of windows shares only works in Microsoft Internet Explorer per default (and only in the “local zone”).</div>
 </li>
 <li class="level1"><div class="li"> For Mozilla and Firefox it can be enabled through different workaround mentioned in the <a href="http://kb.mozillazine.org/Links_to_local_pages_do_not_work" class="urlextern" title="http://kb.mozillazine.org/Links_to_local_pages_do_not_work" rel="ugc nofollow">Mozilla Knowledge Base</a>. However, there will still be a JavaScript warning about trying to open a Windows Share. To remove this warning (for all users), put the following line in <code>conf/lang/en/lang.php</code> (more details at <a href="https://www.dokuwiki.org/localization#changing_some_localized_texts_and_strings_in_your_installation" class="interwiki iw_doku" title="https://www.dokuwiki.org/localization#changing_some_localized_texts_and_strings_in_your_installation">localization</a>): <dl class="code">
-<dt><a href="/doku.php?do=export_code&amp;id=wiki:syntax&amp;codeblock=0" title="Download Snippet" class="mediafile mf_php">conf/lang/en/lang.php</a></dt>
+<dt><a href="/doku.php/wiki:syntax?do=export_code&amp;codeblock=0" title="Download Snippet" class="mediafile mf_php">conf/lang/en/lang.php</a></dt>
 <dd><pre class="code">&lt;?php
 /**
  * Customization of the english language file
@@ -161,7 +161,7 @@ You can also use an image to link to another internal or external page by combin
 <pre class="code">[[http://php.net|{{wiki:dokuwiki-128.png}}]]</pre>
 
 <p>
-<a href="http://php.net" class="media" title="http://php.net" rel="ugc nofollow"><img src="/lib/exe/fetch.php?media=wiki:dokuwiki-128.png" class="media" alt="" /></a>
+<a href="http://php.net" class="media" title="http://php.net" rel="ugc nofollow"><img src="/lib/exe/fetch.php/wiki:dokuwiki-128.png" class="media" alt="" /></a>
 </p>
 
 <p>
@@ -224,15 +224,15 @@ You can include external and internal <a href="https://www.dokuwiki.org/images" 
 </p>
 
 <p>
-Real size:                        <a href="/lib/exe/detail.php?id=wiki%3Asyntax&amp;media=wiki:dokuwiki-128.png" class="media" title="wiki:dokuwiki-128.png"><img src="/lib/exe/fetch.php?media=wiki:dokuwiki-128.png" class="media" alt="" /></a>
+Real size:                        <a href="/lib/exe/detail.php/wiki:dokuwiki-128.png?id=wiki%3Asyntax" class="media" title="wiki:dokuwiki-128.png"><img src="/lib/exe/fetch.php/wiki:dokuwiki-128.png" class="media" alt="" /></a>
 </p>
 
 <p>
-Resize to given width:            <a href="/lib/exe/detail.php?id=wiki%3Asyntax&amp;media=wiki:dokuwiki-128.png" class="media" title="wiki:dokuwiki-128.png"><img src="/lib/exe/fetch.php?w=50&amp;tok=1880c1&amp;media=wiki:dokuwiki-128.png" class="media" alt="" width="50" /></a>
+Resize to given width:            <a href="/lib/exe/detail.php/wiki:dokuwiki-128.png?id=wiki%3Asyntax" class="media" title="wiki:dokuwiki-128.png"><img src="/lib/exe/fetch.php/wiki:dokuwiki-128.png?w=50&amp;tok=1880c1" class="media" alt="" width="50" /></a>
 </p>
 
 <p>
-Resize to given width and height<sup><a href="#fn__2" id="fnt__2" class="fn_top">2)</a></sup>: <a href="/lib/exe/detail.php?id=wiki%3Asyntax&amp;media=wiki:dokuwiki-128.png" class="media" title="wiki:dokuwiki-128.png"><img src="/lib/exe/fetch.php?w=200&amp;h=50&amp;tok=8322b5&amp;media=wiki:dokuwiki-128.png" class="media" alt="" width="200" height="50" /></a>
+Resize to given width and height<sup><a href="#fn__2" id="fnt__2" class="fn_top">2)</a></sup>: <a href="/lib/exe/detail.php/wiki:dokuwiki-128.png?id=wiki%3Asyntax" class="media" title="wiki:dokuwiki-128.png"><img src="/lib/exe/fetch.php/wiki:dokuwiki-128.png?w=200&amp;h=50&amp;tok=8322b5" class="media" alt="" width="200" height="50" /></a>
 </p>
 
 <p>
@@ -248,15 +248,15 @@ By using left or right whitespaces you can choose the alignment.
 </p>
 
 <p>
-<a href="/lib/exe/detail.php?id=wiki%3Asyntax&amp;media=wiki:dokuwiki-128.png" class="media" title="wiki:dokuwiki-128.png"><img src="/lib/exe/fetch.php?media=wiki:dokuwiki-128.png" class="mediaright" alt="" /></a>
+<a href="/lib/exe/detail.php/wiki:dokuwiki-128.png?id=wiki%3Asyntax" class="media" title="wiki:dokuwiki-128.png"><img src="/lib/exe/fetch.php/wiki:dokuwiki-128.png" class="mediaright" alt="" /></a>
 </p>
 
 <p>
-<a href="/lib/exe/detail.php?id=wiki%3Asyntax&amp;media=wiki:dokuwiki-128.png" class="media" title="wiki:dokuwiki-128.png"><img src="/lib/exe/fetch.php?media=wiki:dokuwiki-128.png" class="medialeft" alt="" /></a>
+<a href="/lib/exe/detail.php/wiki:dokuwiki-128.png?id=wiki%3Asyntax" class="media" title="wiki:dokuwiki-128.png"><img src="/lib/exe/fetch.php/wiki:dokuwiki-128.png" class="medialeft" alt="" /></a>
 </p>
 
 <p>
-<a href="/lib/exe/detail.php?id=wiki%3Asyntax&amp;media=wiki:dokuwiki-128.png" class="media" title="wiki:dokuwiki-128.png"><img src="/lib/exe/fetch.php?media=wiki:dokuwiki-128.png" class="mediacenter" alt="" /></a>
+<a href="/lib/exe/detail.php/wiki:dokuwiki-128.png?id=wiki%3Asyntax" class="media" title="wiki:dokuwiki-128.png"><img src="/lib/exe/fetch.php/wiki:dokuwiki-128.png" class="mediacenter" alt="" /></a>
 </p>
 <pre class="code">{{ wiki:dokuwiki-128.png}}
 {{wiki:dokuwiki-128.png }}
@@ -267,7 +267,7 @@ Of course, you can add a title (displayed as a tooltip by most browsers), too.
 </p>
 
 <p>
-<a href="/lib/exe/detail.php?id=wiki%3Asyntax&amp;media=wiki:dokuwiki-128.png" class="media" title="wiki:dokuwiki-128.png"><img src="/lib/exe/fetch.php?media=wiki:dokuwiki-128.png" class="mediacenter" title="This is the caption" alt="This is the caption" /></a>
+<a href="/lib/exe/detail.php/wiki:dokuwiki-128.png?id=wiki%3Asyntax" class="media" title="wiki:dokuwiki-128.png"><img src="/lib/exe/fetch.php/wiki:dokuwiki-128.png" class="mediacenter" title="This is the caption" alt="This is the caption" /></a>
 </p>
 <pre class="code">{{ wiki:dokuwiki-128.png |This is the caption}}</pre>
 
@@ -308,7 +308,7 @@ By adding <code>?linkonly</code> you provide a link to the media without display
 <pre class="code">{{wiki:dokuwiki-128.png?linkonly}}</pre>
 
 <p>
-<a href="/lib/exe/fetch.php?media=wiki:dokuwiki-128.png" class="media mediafile mf_png" title="wiki:dokuwiki-128.png (27.2 KB)">dokuwiki-128.png</a> This is just a link to the image.
+<a href="/lib/exe/fetch.php/wiki:dokuwiki-128.png" class="media mediafile mf_png" title="wiki:dokuwiki-128.png (27.2 KB)">dokuwiki-128.png</a> This is just a link to the image.
 </p>
 
 </div>
@@ -449,7 +449,7 @@ DokuWiki converts commonly used <a href="https://en.wikipedia.org/wiki/emoticon"
 <div class="level3">
 
 <p>
-Typography: <a href="/doku.php?id=wiki:dokuwiki" class="wikilink1" title="wiki:dokuwiki" data-wiki-id="wiki:dokuwiki">DokuWiki</a> can convert simple text characters to their typographically correct entities. Here is an example of recognized characters.
+Typography: <a href="/doku.php/wiki:dokuwiki" class="wikilink1" title="wiki:dokuwiki" data-wiki-id="wiki:dokuwiki">DokuWiki</a> can convert simple text characters to their typographically correct entities. Here is an example of recognized characters.
 </p>
 
 <p>
@@ -683,7 +683,7 @@ This is pretty much the same, but you could use it to show that you quoted a fil
 <div class="level3">
 
 <p>
-<a href="/doku.php?id=wiki:dokuwiki" class="wikilink1" title="wiki:dokuwiki" data-wiki-id="wiki:dokuwiki">DokuWiki</a> can highlight sourcecode, which makes it easier to read. It uses the <a href="http://qbnz.com/highlighter/" class="urlextern" title="http://qbnz.com/highlighter/" rel="ugc nofollow">GeSHi</a> Generic Syntax Highlighter – so any language supported by GeSHi is supported. The syntax uses the same code and file blocks described in the previous section, but this time the name of the language syntax to be highlighted is included inside the tag, e.g. <code>&lt;code java&gt;</code> or <code>&lt;file java&gt;</code>.
+<a href="/doku.php/wiki:dokuwiki" class="wikilink1" title="wiki:dokuwiki" data-wiki-id="wiki:dokuwiki">DokuWiki</a> can highlight sourcecode, which makes it easier to read. It uses the <a href="http://qbnz.com/highlighter/" class="urlextern" title="http://qbnz.com/highlighter/" rel="ugc nofollow">GeSHi</a> Generic Syntax Highlighter – so any language supported by GeSHi is supported. The syntax uses the same code and file blocks described in the previous section, but this time the name of the language syntax to be highlighted is included inside the tag, e.g. <code>&lt;code java&gt;</code> or <code>&lt;file java&gt;</code>.
 </p>
 <pre class="code java"><span class="co3">/**
  * The HelloWorldApp class implements an application that
@@ -715,7 +715,7 @@ When you use the <code>&lt;code&gt;</code> or <code>&lt;file&gt;</code> syntax a
 &lt;?php echo &quot;hello world!&quot;; ?&gt;
 &lt;/file&gt;</pre>
 <dl class="file">
-<dt><a href="/doku.php?do=export_code&amp;id=wiki:syntax&amp;codeblock=8" title="Download Snippet" class="mediafile mf_php">myexample.php</a></dt>
+<dt><a href="/doku.php/wiki:syntax?do=export_code&amp;codeblock=8" title="Download Snippet" class="mediafile mf_php">myexample.php</a></dt>
 <dd><pre class="code file php"><span class="kw2">&lt;?php</span> <span class="kw1">echo</span> <span class="st0">&quot;hello world!&quot;</span><span class="sy0">;</span> <span class="sy1">?&gt;</span></pre>
 </dd></dl>
 
@@ -778,7 +778,7 @@ echo &#039;&lt;/tr&gt;&lt;/table&gt;&#039;;
 <div class="level2">
 
 <p>
-<a href="/doku.php?id=wiki:dokuwiki" class="wikilink1" title="wiki:dokuwiki" data-wiki-id="wiki:dokuwiki">DokuWiki</a> can integrate data from external XML feeds. For parsing the XML feeds, <a href="http://simplepie.org/" class="urlextern" title="http://simplepie.org/" rel="ugc nofollow">SimplePie</a> is used. All formats understood by SimplePie can be used in DokuWiki as well. You can influence the rendering by multiple additional space separated parameters:
+<a href="/doku.php/wiki:dokuwiki" class="wikilink1" title="wiki:dokuwiki" data-wiki-id="wiki:dokuwiki">DokuWiki</a> can integrate data from external XML feeds. For parsing the XML feeds, <a href="http://simplepie.org/" class="urlextern" title="http://simplepie.org/" rel="ugc nofollow">SimplePie</a> is used. All formats understood by SimplePie can be used in DokuWiki as well. You can influence the rendering by multiple additional space separated parameters:
 </p>
 <div class="table sectionedit32"><table class="inline">
 	<thead>
@@ -810,7 +810,7 @@ echo &#039;&lt;/tr&gt;&lt;/table&gt;&#039;;
 </table></div>
 <!-- EDIT{&quot;target&quot;:&quot;table&quot;,&quot;name&quot;:&quot;&quot;,&quot;hid&quot;:&quot;table5&quot;,&quot;secid&quot;:32,&quot;range&quot;:&quot;20671-21162&quot;} -->
 <p>
-The refresh period defaults to 4 hours. Any value below 10 minutes will be treated as 10 minutes. <a href="/doku.php?id=wiki:dokuwiki" class="wikilink1" title="wiki:dokuwiki" data-wiki-id="wiki:dokuwiki">DokuWiki</a> will generally try to supply a cached version of a page, obviously this is inappropriate when the page contains dynamic external content. The parameter tells <a href="/doku.php?id=wiki:dokuwiki" class="wikilink1" title="wiki:dokuwiki" data-wiki-id="wiki:dokuwiki">DokuWiki</a> to re-render the page if it is more than <em>refresh period</em> since the page was last rendered.
+The refresh period defaults to 4 hours. Any value below 10 minutes will be treated as 10 minutes. <a href="/doku.php/wiki:dokuwiki" class="wikilink1" title="wiki:dokuwiki" data-wiki-id="wiki:dokuwiki">DokuWiki</a> will generally try to supply a cached version of a page, obviously this is inappropriate when the page contains dynamic external content. The parameter tells <a href="/doku.php/wiki:dokuwiki" class="wikilink1" title="wiki:dokuwiki" data-wiki-id="wiki:dokuwiki">DokuWiki</a> to re-render the page if it is more than <em>refresh period</em> since the page was last rendered.
 </p>
 
 <p>
@@ -821,7 +821,7 @@ By default the feed will be sorted by date, newest items first. You can sort it 
 <strong>Example:</strong>
 </p>
 <pre class="code">{{rss&gt;http://slashdot.org/index.rss 5 author date 1h }}</pre>
-<ul class="rss"><li><div class="li"><a href="http://rss.slashdot.org/~r/Slashdot/slashdot/~3/Z1FMb5FMmuA/you-can-now-play-doom-via-twitter" class="urlextern" title="http://rss.slashdot.org/~r/Slashdot/slashdot/~3/Z1FMb5FMmuA/you-can-now-play-doom-via-twitter" rel="ugc nofollow">http://rss.slashdot.org/~r/Slashdot/slashdot/~3/Z1FMb5FMmuA/you-can-now-play-doom-via-twitter</a> by EditorDavid (2021/10/18 11:34)</div></li><li><div class="li"><a href="http://rss.slashdot.org/~r/Slashdot/slashdot/~3/uCxxOyVME4g/1m-inaugural-earthshot-prize-recognizes-creative-solutions-to-climate-problems" class="urlextern" title="http://rss.slashdot.org/~r/Slashdot/slashdot/~3/uCxxOyVME4g/1m-inaugural-earthshot-prize-recognizes-creative-solutions-to-climate-problems" rel="ugc nofollow">http://rss.slashdot.org/~r/Slashdot/slashdot/~3/uCxxOyVME4g/1m-inaugural-earthshot-prize-recognizes-creative-solutions-to-climate-problems</a> by EditorDavid (2021/10/18 07:34)</div></li><li><div class="li"><a href="http://rss.slashdot.org/~r/Slashdot/slashdot/~3/dROCiDJgYHM/new-internal-documents-contradict-facebooks-claims-that-ai-can-enforce-its-rules" class="urlextern" title="http://rss.slashdot.org/~r/Slashdot/slashdot/~3/dROCiDJgYHM/new-internal-documents-contradict-facebooks-claims-that-ai-can-enforce-its-rules" rel="ugc nofollow">http://rss.slashdot.org/~r/Slashdot/slashdot/~3/dROCiDJgYHM/new-internal-documents-contradict-facebooks-claims-that-ai-can-enforce-its-rules</a> by EditorDavid (2021/10/18 03:34)</div></li><li><div class="li"><a href="http://rss.slashdot.org/~r/Slashdot/slashdot/~3/C69__vmYpW0/a-meteorite-crashed-through-somebodys-ceiling-and-landed-on-their-bed" class="urlextern" title="http://rss.slashdot.org/~r/Slashdot/slashdot/~3/C69__vmYpW0/a-meteorite-crashed-through-somebodys-ceiling-and-landed-on-their-bed" rel="ugc nofollow">http://rss.slashdot.org/~r/Slashdot/slashdot/~3/C69__vmYpW0/a-meteorite-crashed-through-somebodys-ceiling-and-landed-on-their-bed</a> by EditorDavid (2021/10/18 01:44)</div></li><li><div class="li"><a href="http://rss.slashdot.org/~r/Slashdot/slashdot/~3/dxGMbgs_e0c/international-us-cyber-games-competition-seeks-next-generation-of-cybersecurity-experts" class="urlextern" title="http://rss.slashdot.org/~r/Slashdot/slashdot/~3/dxGMbgs_e0c/international-us-cyber-games-competition-seeks-next-generation-of-cybersecurity-experts" rel="ugc nofollow">http://rss.slashdot.org/~r/Slashdot/slashdot/~3/dxGMbgs_e0c/international-us-cyber-games-competition-seeks-next-generation-of-cybersecurity-experts</a> by EditorDavid (2021/10/17 22:55)</div></li></ul>
+<ul class="rss"><li><div class="li"><a href="http://rss.slashdot.org/~r/Slashdot/slashdot/~3/RVPbaY2iEHk/apple-wants-iphones-to-detect-car-crashes-auto-dial-911" class="urlextern" title="http://rss.slashdot.org/~r/Slashdot/slashdot/~3/RVPbaY2iEHk/apple-wants-iphones-to-detect-car-crashes-auto-dial-911" rel="ugc nofollow">Apple Wants iPhones To Detect Car Crashes, Auto-Dial 911</a> by msmash (2021/11/01 14:44)</div></li><li><div class="li"><a href="http://rss.slashdot.org/~r/Slashdot/slashdot/~3/Lopx-rr3ODA/tiktok-owner-bytedance-mandates-shorter-working-hours" class="urlextern" title="http://rss.slashdot.org/~r/Slashdot/slashdot/~3/Lopx-rr3ODA/tiktok-owner-bytedance-mandates-shorter-working-hours" rel="ugc nofollow">TikTok Owner ByteDance Mandates Shorter Working Hours</a> by msmash (2021/11/01 14:14)</div></li><li><div class="li"><a href="http://rss.slashdot.org/~r/Slashdot/slashdot/~3/stdmo7nB9bw/we-mapped-every-large-solar-plant-on-earth-using-satellites-and-machine-learning" class="urlextern" title="http://rss.slashdot.org/~r/Slashdot/slashdot/~3/stdmo7nB9bw/we-mapped-every-large-solar-plant-on-earth-using-satellites-and-machine-learning" rel="ugc nofollow">http://rss.slashdot.org/~r/Slashdot/slashdot/~3/stdmo7nB9bw/we-mapped-every-large-solar-plant-on-earth-using-satellites-and-machine-learning</a> by EditorDavid (2021/11/01 10:34)</div></li><li><div class="li"><a href="http://rss.slashdot.org/~r/Slashdot/slashdot/~3/R2TP0vuYyV8/new-chinese-rule-requires-government-approval-before-companies-can-transfer-important-data-abroad" class="urlextern" title="http://rss.slashdot.org/~r/Slashdot/slashdot/~3/R2TP0vuYyV8/new-chinese-rule-requires-government-approval-before-companies-can-transfer-important-data-abroad" rel="ugc nofollow">New Chinese Rule Requires Government Approval Before Companies Can Transfer Important Data Abroad</a> by EditorDavid (2021/11/01 07:34)</div></li><li><div class="li"><a href="http://rss.slashdot.org/~r/Slashdot/slashdot/~3/0s-XTpod1KY/microsofts-ceo-satya-nadella-says-new-norms-needed-as-real-structural-changes-rock-workplaces" class="urlextern" title="http://rss.slashdot.org/~r/Slashdot/slashdot/~3/0s-XTpod1KY/microsofts-ceo-satya-nadella-says-new-norms-needed-as-real-structural-changes-rock-workplaces" rel="ugc nofollow">http://rss.slashdot.org/~r/Slashdot/slashdot/~3/0s-XTpod1KY/microsofts-ceo-satya-nadella-says-new-norms-needed-as-real-structural-changes-rock-workplaces</a> by EditorDavid (2021/11/01 04:52)</div></li></ul>
 </div>
 <!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;RSS\/ATOM Feed Aggregation&quot;,&quot;hid&quot;:&quot;rss_atom_feed_aggregation&quot;,&quot;codeblockOffset&quot;:11,&quot;secid&quot;:31,&quot;range&quot;:&quot;20351-21854&quot;} -->
 <h2 class="sectionedit33" id="control_macros">Control Macros</h2>
@@ -852,7 +852,11 @@ Some syntax influences how DokuWiki renders a page without creating any output i
 <p>
 DokuWiki&#039;s syntax can be extended by <a href="https://www.dokuwiki.org/plugins" class="interwiki iw_doku" title="https://www.dokuwiki.org/plugins">Plugins</a>. How the installed plugins are used is described on their appropriate description pages. The following syntax plugins are available in this particular DokuWiki installation:
 </p>
-<ul><li><div class="li"><a href="http://dokuwiki.org/plugin:info" class="urlextern" title="http://dokuwiki.org/plugin:info" rel="ugc nofollow">Info Plugin</a> <em>2020-06-04</em> by <a href="mailto:&#97;&#110;&#100;&#105;&#64;&#115;&#112;&#108;&#105;&#116;&#98;&#114;&#97;&#105;&#110;&#46;&#111;&#114;&#103;" class="mail" title="&#97;&#110;&#100;&#105;&#64;&#115;&#112;&#108;&#105;&#116;&#98;&#114;&#97;&#105;&#110;&#46;&#111;&#114;&#103;">Andreas Gohr</a><br />Displays information about various DokuWiki internals</div></li></ul>
+
+<p>
+~~INFO:syntaxplugins~~
+</p>
+
 </div>
 <!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Syntax Plugins&quot;,&quot;hid&quot;:&quot;syntax_plugins&quot;,&quot;codeblockOffset&quot;:11,&quot;secid&quot;:35,&quot;range&quot;:&quot;22359-&quot;} --><div class="footnotes">
 <div class="fn"><sup><a href="#fnt__1" id="fn__1" class="fn_bot">1)</a></sup> 
