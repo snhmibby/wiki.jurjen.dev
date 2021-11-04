@@ -1,11 +1,3 @@
-1634835230	2a02:1810:cd2f:3500:5e96:9dff:fe83:abb1	E	bookmarks	jurjen	[Web] 		77
-1634886436	2a02:1810:cd2f:3500:5e96:9dff:fe83:abb1	E	web:template	jurjen	[Jekyll] 		-109
-1634948140	188.206.110.101	E	configuration:jurjen.dev	jurjen	[Extra hacks] 		58
-1634948218	188.206.110.101	C	tricks:admin:chroot-httpd	jurjen	created		175
-1634948256	188.206.110.101	E	tricks	jurjen	[Admin] 		59
-1634955666	62.133.99.33	E	configuration:jurjen.dev:pkg-list	jurjen			-42
-1635019692	89.200.47.58	E	configuration:jurjen.dev:pkg-list	jurjen			10
-1635064437	31.161.140.219	E	web	jurjen	[What I found out so far:] 		-580
 1635064450	31.161.140.219	D	web	jurjen	removed		-155
 1635064585	31.161.140.219	E	tricks	jurjen			-94
 1635181547	188.206.99.57	C	web	jurjen	created		135
