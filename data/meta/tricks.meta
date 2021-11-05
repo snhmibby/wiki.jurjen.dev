@@ -1,4 +1,4 @@
-a:2:{s:7:"current";a:9:{s:4:"date";a:2:{s:7:"created";i:1634548258;s:8:"modified";i:1635064585;}s:7:"creator";s:6:"jurjen";s:4:"user";s:6:"jurjen";s:11:"last_change";a:8:{s:4:"date";i:1635064585;s:2:"ip";s:14:"31.161.140.219";s:4:"type";s:1:"E";s:2:"id";s:6:"tricks";s:4:"user";s:6:"jurjen";s:3:"sum";s:0:"";s:5:"extra";s:0:"";s:10:"sizechange";i:-94;}s:11:"contributor";a:1:{s:6:"jurjen";s:6:"jurjen";}s:5:"title";s:29:"Computer links, tips & tricks";s:11:"description";a:2:{s:15:"tableofcontents";a:6:{i:0;a:4:{s:3:"hid";s:26:"computer_links_tips_tricks";s:5:"title";s:29:"Computer links, tips & tricks";s:4:"type";s:2:"ul";s:5:"level";i:1;}i:1;a:4:{s:3:"hid";s:11:"programming";s:5:"title";s:11:"Programming";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:2;a:4:{s:3:"hid";s:3:"web";s:5:"title";s:3:"Web";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:3;a:4:{s:3:"hid";s:5:"admin";s:5:"title";s:5:"Admin";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:4;a:4:{s:3:"hid";s:24:"free_hosts_limited_trial";s:5:"title";s:24:"Free hosts/limited trial";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:5;a:4:{s:3:"hid";s:13:"configuration";s:5:"title";s:13:"Configuration";s:4:"type";s:2:"ul";s:5:"level";i:2;}}s:8:"abstract";s:447:"Computer links, tips & tricks
+a:2:{s:7:"current";a:9:{s:4:"date";a:2:{s:7:"created";i:1634548258;s:8:"modified";i:1636010245;}s:7:"creator";s:6:"jurjen";s:4:"user";s:6:"jurjen";s:11:"last_change";a:8:{s:4:"date";i:1636010245;s:2:"ip";s:13:"188.206.65.36";s:4:"type";s:1:"E";s:2:"id";s:6:"tricks";s:4:"user";s:6:"jurjen";s:3:"sum";s:6:"[Web] ";s:5:"extra";s:0:"";s:10:"sizechange";i:194;}s:11:"contributor";a:1:{s:6:"jurjen";s:6:"jurjen";}s:5:"title";s:29:"Computer links, tips & tricks";s:11:"description";a:2:{s:15:"tableofcontents";a:6:{i:0;a:4:{s:3:"hid";s:26:"computer_links_tips_tricks";s:5:"title";s:29:"Computer links, tips & tricks";s:4:"type";s:2:"ul";s:5:"level";i:1;}i:1;a:4:{s:3:"hid";s:11:"programming";s:5:"title";s:11:"Programming";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:2;a:4:{s:3:"hid";s:3:"web";s:5:"title";s:3:"Web";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:3;a:4:{s:3:"hid";s:5:"admin";s:5:"title";s:5:"Admin";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:4;a:4:{s:3:"hid";s:24:"free_hosts_limited_trial";s:5:"title";s:24:"Free hosts/limited trial";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:5;a:4:{s:3:"hid";s:13:"configuration";s:5:"title";s:13:"Configuration";s:4:"type";s:2:"ul";s:5:"level";i:2;}}s:8:"abstract";s:361:"Computer links, tips & tricks
 
 Programming
 
@@ -8,17 +8,13 @@ Web
 
 CSS
 
-	*  <https://css-tricks.com> well written articles.
+	*  <https://css-tricks.com> well written articles
+	*  no-override first media queries
+
+    Nice way to do CSS; component 'basics first', put specifics in media queries.
 
 Admin
 
 	*  <https://gandi.net> nice registrar
 	*  <https://transip.nl> FreeBSD vps/cloud host I'm using atm.
-	*  Block .git directory access in lighttpd
-	*  Use certbot to easily manage free ssl certificates
-	*  How to put configuration files in a git repo
-	*  Run Lighttpd in a chroot
-
-Free hosts/limited trial
-
-	*";}s:8:"relation";a:2:{s:10:"references";a:4:{s:23:"tricks:git_and_lighttpd";b:1;s:27:"tricks:admin:git_etc_config";b:1;s:25:"tricks:admin:chroot-httpd";b:1;s:20:"tricks:fetchmail_ssl";b:1;}s:10:"firstimage";s:0:"";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}}s:10:"persistent";a:5:{s:4:"date";a:2:{s:7:"created";i:1634548258;s:8:"modified";i:1635064585;}s:7:"creator";s:6:"jurjen";s:4:"user";s:6:"jurjen";s:11:"last_change";a:8:{s:4:"date";i:1635064585;s:2:"ip";s:14:"31.161.140.219";s:4:"type";s:1:"E";s:2:"id";s:6:"tricks";s:4:"user";s:6:"jurjen";s:3:"sum";s:0:"";s:5:"extra";s:0:"";s:10:"sizechange";i:-94;}s:11:"contributor";a:1:{s:6:"jurjen";s:6:"jurjen";}}}
+	*";}s:8:"relation";a:2:{s:10:"references";a:5:{s:23:"tricks:git_and_lighttpd";b:1;s:27:"tricks:admin:git_etc_config";b:1;s:25:"tricks:admin:chroot-httpd";b:1;s:6:"heroku";b:1;s:20:"tricks:fetchmail_ssl";b:1;}s:10:"firstimage";s:0:"";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}}s:10:"persistent";a:5:{s:4:"date";a:2:{s:7:"created";i:1634548258;s:8:"modified";i:1636010245;}s:7:"creator";s:6:"jurjen";s:4:"user";s:6:"jurjen";s:11:"last_change";a:8:{s:4:"date";i:1636010245;s:2:"ip";s:13:"188.206.65.36";s:4:"type";s:1:"E";s:2:"id";s:6:"tricks";s:4:"user";s:6:"jurjen";s:3:"sum";s:6:"[Web] ";s:5:"extra";s:0:"";s:10:"sizechange";i:194;}s:11:"contributor";a:1:{s:6:"jurjen";s:6:"jurjen";}}}

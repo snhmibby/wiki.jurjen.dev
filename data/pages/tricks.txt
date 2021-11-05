@@ -7,7 +7,9 @@
   * [[https://www.dav-muz.net/blog/2013/09/how-to-use-go-and-fastcgi/|HOWTO: fcgi with go]]
 
 === CSS ===
-  * [[https://css-tricks.com]] well written articles.
+  * [[https://css-tricks.com]] well written articles
+  * [[https://elad.medium.com/the-new-responsive-design-evolution-2bfb9b504a4e|no-override first media queries]]
+    Nice way to do CSS; component 'basics first', put specifics in media queries.
 
 
 ===== Admin =====
@@ -22,9 +24,10 @@
 ==== Free hosts/limited trial ====
   * Google cloud/app engine has free trial
   * Heroku has free trial
-  * Vultr has 'free' trial but requires paypal AND credit card
+  * Vultr has 'free' trial but requires paypal AND linked banking account
   * TransIP offers 3 month free VPS, they seem professional but expensive
   * iwStack also offers VPS they seem less professional but cheap
+  * [[Heroku|Heroku notes]] 500 free hours/month, shutdown after 1/2 hour inactivity + free tier postgres database.
 
 ===== Configuration =====
   * [[tricks:fetchmail_ssl|Force fetchmail to use ssl]]

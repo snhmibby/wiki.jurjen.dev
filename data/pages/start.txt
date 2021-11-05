@@ -3,6 +3,5 @@ Here I am keeping (mostly) computer related links, tricks and thoughts I find in
 
   * [[Configuration|Host configuration notes]]
   * [[Tricks|Computer Tricks & Tips]]
-  * [[Web| Notes on HTML/CSS/site building etc.]]  
   * [[Bookmarks]]
   * [[Heroku|Heroku notes]]
