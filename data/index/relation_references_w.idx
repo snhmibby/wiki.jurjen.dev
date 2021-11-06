@@ -39,3 +39,4 @@ gcloud
 heroku
 configuration:labs.jurjen.dev
 configuration:labs.jurjen.dev:pkg
+configuration:frontend-mentor.jurjen.dev
