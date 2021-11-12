@@ -10,4 +10,4 @@
 # Format:
 # login:passwordhash:Real Name:email:groups,comma,separated
 
-jurjen:$2y$10$Wl8RwRH8aIjB8TaZqMLQSeLnOGyyEbv3NS7U/qZLGkvVKwaYjOWuG:jurjen:info@jurjen.dev:admin,user
+jurjen:$1$bxMMEuUW$TDhY3ZU.2jhoGY77Se7FG.:jurjen:info@jurjen.dev:admin,user
