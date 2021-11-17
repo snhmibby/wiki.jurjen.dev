@@ -19,6 +19,7 @@
   * [[https://github.com/Donearm/awesome-tutorials/|List of cool tutorials]]
   * [[https://css-tricks.com/quick-whats-the-difference-between-flexbox-and-grid/]]
   * [[https://ishadeed.com/article/pixel-perfection/]] A designers' POV
+  * [[https://dev.to/mefaba/how-to-use-scss-with-svelte-4c6o]] Add scss support to a svelte project
 
 ==== CSS/SASS/Design stuff ====
   * [[https://devhints.io/sass|SASS cheatsheet]]
