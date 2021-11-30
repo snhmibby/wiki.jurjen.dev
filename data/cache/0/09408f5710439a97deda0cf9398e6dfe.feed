@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generator="FeedCreator 1.8" -->
+<?xml-stylesheet href="https://wiki.jurjen.dev/lib/exe/css.php?s=feed" type="text/css"?>
+<rdf:RDF
+    xmlns="http://purl.org/rss/1.0/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel rdf:about="https://wiki.jurjen.dev/feed.php">
+        <title>wiki.jurjen.dev tricks:admin</title>
+        <description></description>
+        <link>https://wiki.jurjen.dev/</link>
+        <image rdf:resource="https://wiki.jurjen.dev/lib/tpl/dokuwiki/images/favicon.ico" />
+       <dc:date>2021-11-26T10:42:49+00:00</dc:date>
+        <items>
+            <rdf:Seq>
+                <rdf:li rdf:resource="https://wiki.jurjen.dev/doku.php/tricks:admin:chroot-httpd?rev=1634948218&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.jurjen.dev/doku.php/tricks:admin:git_etc_config?rev=1634769709&amp;do=diff"/>
+            </rdf:Seq>
+        </items>
+    </channel>
+    <image rdf:about="https://wiki.jurjen.dev/lib/tpl/dokuwiki/images/favicon.ico">
+        <title>wiki.jurjen.dev</title>
+        <link>https://wiki.jurjen.dev/</link>
+        <url>https://wiki.jurjen.dev/lib/tpl/dokuwiki/images/favicon.ico</url>
+    </image>
+    <item rdf:about="https://wiki.jurjen.dev/doku.php/tricks:admin:chroot-httpd?rev=1634948218&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-10-23T00:16:58+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>tricks:admin:chroot-httpd</title>
+        <link>https://wiki.jurjen.dev/doku.php/tricks:admin:chroot-httpd?rev=1634948218&amp;do=diff</link>
+        <description>Run Lighttpd in a chroot
+
+With php-fcgi (because of, rather :)
+
+I didn't implement this yet, but fully intent to when I have time and document it here when I do!</description>
+    </item>
+    <item rdf:about="https://wiki.jurjen.dev/doku.php/tricks:admin:git_etc_config?rev=1634769709&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-10-20T22:41:49+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>tricks:admin:git_etc_config</title>
+        <link>https://wiki.jurjen.dev/doku.php/tricks:admin:git_etc_config?rev=1634769709&amp;do=diff</link>
+        <description>Put .configuration in a git repo
+
+Simple methods for simple folks.
+
+The first would be to initialize a git repo in the filesystem root folder and git add to there, this seems very simple, no need to mess around with symlinks etc, no set up needed, just git add shit. but also has potential for massive screw ups :)</description>
+    </item>
+</rdf:RDF>

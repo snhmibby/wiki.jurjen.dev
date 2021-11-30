@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generator="FeedCreator 1.8" -->
+<?xml-stylesheet href="https://wiki.jurjen.dev/lib/exe/css.php?s=feed" type="text/css"?>
+<rdf:RDF
+    xmlns="http://purl.org/rss/1.0/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel rdf:about="https://wiki.jurjen.dev/feed.php">
+        <title>wiki.jurjen.dev tricks</title>
+        <description></description>
+        <link>https://wiki.jurjen.dev/</link>
+        <image rdf:resource="https://wiki.jurjen.dev/lib/tpl/dokuwiki/images/favicon.ico" />
+       <dc:date>2021-11-26T14:38:26+00:00</dc:date>
+        <items>
+            <rdf:Seq>
+                <rdf:li rdf:resource="https://wiki.jurjen.dev/doku.php/tricks:fetchmail_ssl?rev=1634719183&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.jurjen.dev/doku.php/tricks:git_and_lighttpd?rev=1635682922&amp;do=diff"/>
+            </rdf:Seq>
+        </items>
+    </channel>
+    <image rdf:about="https://wiki.jurjen.dev/lib/tpl/dokuwiki/images/favicon.ico">
+        <title>wiki.jurjen.dev</title>
+        <link>https://wiki.jurjen.dev/</link>
+        <url>https://wiki.jurjen.dev/lib/tpl/dokuwiki/images/favicon.ico</url>
+    </image>
+    <item rdf:about="https://wiki.jurjen.dev/doku.php/tricks:fetchmail_ssl?rev=1634719183&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-10-20T08:39:43+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>tricks:fetchmail_ssl</title>
+        <link>https://wiki.jurjen.dev/doku.php/tricks:fetchmail_ssl?rev=1634719183&amp;do=diff</link>
+        <description>Force fetchmail to use tls
+
+Here is how to get your mail securely with fetchmail and pipe it into procmail
+
+
+poll mail.example.com proto pop3:
+   user &quot;user@example.com&quot;
+   password &quot;supersecret&quot;
+   ssl sslcertck sslproto &quot;tls1.2+&quot;
+   mda &quot;/usr/bin/procmail -f %F -d %T&quot;;</description>
+    </item>
+    <item rdf:about="https://wiki.jurjen.dev/doku.php/tricks:git_and_lighttpd?rev=1635682922&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-10-31T12:22:02+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>tricks:git_and_lighttpd</title>
+        <link>https://wiki.jurjen.dev/doku.php/tricks:git_and_lighttpd?rev=1635682922&amp;do=diff</link>
+        <description>Use git to store your site
+
+I've switched for a while now to just using rsync.
+ --- jurjen 2021/10/31 12:20
+
+You can use git to easily pull your website onto the server and work on it on another computer.
+
+It shouldn't matter, but for ease of mind,be sure to block the .git directory in lighttpd, like so:</description>
+    </item>
+</rdf:RDF>

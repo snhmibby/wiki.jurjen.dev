@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generator="FeedCreator 1.8" -->
+<?xml-stylesheet href="https://wiki.jurjen.dev/lib/exe/css.php?s=feed" type="text/css"?>
+<rdf:RDF
+    xmlns="http://purl.org/rss/1.0/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel rdf:about="https://wiki.jurjen.dev/feed.php">
+        <title>wiki.jurjen.dev configuration</title>
+        <description></description>
+        <link>https://wiki.jurjen.dev/</link>
+        <image rdf:resource="https://wiki.jurjen.dev/lib/tpl/dokuwiki/images/favicon.ico" />
+       <dc:date>2021-11-26T12:12:49+00:00</dc:date>
+        <items>
+            <rdf:Seq>
+                <rdf:li rdf:resource="https://wiki.jurjen.dev/doku.php/configuration:hackbook?rev=1634568698&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.jurjen.dev/doku.php/configuration:jurjen.dev?rev=1636140197&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.jurjen.dev/doku.php/configuration:labs.jurjen.dev?rev=1636639199&amp;do=diff"/>
+            </rdf:Seq>
+        </items>
+    </channel>
+    <image rdf:about="https://wiki.jurjen.dev/lib/tpl/dokuwiki/images/favicon.ico">
+        <title>wiki.jurjen.dev</title>
+        <link>https://wiki.jurjen.dev/</link>
+        <url>https://wiki.jurjen.dev/lib/tpl/dokuwiki/images/favicon.ico</url>
+    </image>
+    <item rdf:about="https://wiki.jurjen.dev/doku.php/configuration:hackbook?rev=1634568698&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-10-18T14:51:38+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>configuration:hackbook</title>
+        <link>https://wiki.jurjen.dev/doku.php/configuration:hackbook?rev=1634568698&amp;do=diff</link>
+        <description>Hackbook: Macbook Pro laptop running Debian
+
+I am not very happy with Debian, because it is so messy, too much things running in the background, systemd, dbus, a whole lot of background tasks i have no idea what they are doing and have no conscious recollection of installing.
+Anyway, it runs pretty good on an old macbook which BSD didn't</description>
+    </item>
+    <item rdf:about="https://wiki.jurjen.dev/doku.php/configuration:jurjen.dev?rev=1636140197&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-11-05T19:23:17+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>configuration:jurjen.dev</title>
+        <link>https://wiki.jurjen.dev/doku.php/configuration:jurjen.dev?rev=1636140197&amp;do=diff</link>
+        <description>jurjen.dev
+
+jurjen.dev is my new domain &amp; server (end of 2021)
+It will host my personal website, notes, projects, etc..
+
+It's been a while... I am very excited to have both a web presence and a FreeBSD host again :D
+
+Basic info
+
+Runs on a vps
+
+	*   Installed packages list
+	*</description>
+    </item>
+    <item rdf:about="https://wiki.jurjen.dev/doku.php/configuration:labs.jurjen.dev?rev=1636639199&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-11-11T13:59:59+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>configuration:labs.jurjen.dev</title>
+        <link>https://wiki.jurjen.dev/doku.php/configuration:labs.jurjen.dev?rev=1636639199&amp;do=diff</link>
+        <description>Configuration on labs.jurjen.dev
+
+Discontinued for now</description>
+    </item>
+</rdf:RDF>

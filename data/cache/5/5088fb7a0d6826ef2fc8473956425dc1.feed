@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generator="FeedCreator 1.8" -->
+<?xml-stylesheet href="https://wiki.jurjen.dev/lib/exe/css.php?s=feed" type="text/css"?>
+<rdf:RDF
+    xmlns="http://purl.org/rss/1.0/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel rdf:about="https://wiki.jurjen.dev/feed.php">
+        <title>wiki.jurjen.dev configuration:jurjen.dev</title>
+        <description></description>
+        <link>https://wiki.jurjen.dev/</link>
+        <image rdf:resource="https://wiki.jurjen.dev/lib/tpl/dokuwiki/images/favicon.ico" />
+       <dc:date>2021-11-27T11:39:20+00:00</dc:date>
+        <items>
+            <rdf:Seq>
+                <rdf:li rdf:resource="https://wiki.jurjen.dev/doku.php/configuration:jurjen.dev:pkg-list?rev=1635019692&amp;do=diff"/>
+            </rdf:Seq>
+        </items>
+    </channel>
+    <image rdf:about="https://wiki.jurjen.dev/lib/tpl/dokuwiki/images/favicon.ico">
+        <title>wiki.jurjen.dev</title>
+        <link>https://wiki.jurjen.dev/</link>
+        <url>https://wiki.jurjen.dev/lib/tpl/dokuwiki/images/favicon.ico</url>
+    </image>
+    <item rdf:about="https://wiki.jurjen.dev/doku.php/configuration:jurjen.dev:pkg-list?rev=1635019692&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-10-23T20:08:12+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>configuration:jurjen.dev:pkg-list</title>
+        <link>https://wiki.jurjen.dev/doku.php/configuration:jurjen.dev:pkg-list?rev=1635019692&amp;do=diff</link>
+        <description>Installed pkg
+
+	*  vim
+	*  git
+	*  bash
+	*  lighttpd
+	*  sudo
+	*  rsync
+	*  go (v1.17)
+	*  py38-certbot
+	*  dokuwiki
+	*  Lynis</description>
+    </item>
+</rdf:RDF>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generator="FeedCreator 1.8" -->
+<?xml-stylesheet href="https://wiki.jurjen.dev/lib/exe/css.php?s=feed" type="text/css"?>
+<rdf:RDF
+    xmlns="http://purl.org/rss/1.0/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel rdf:about="https://wiki.jurjen.dev/feed.php">
+        <title>wiki.jurjen.dev</title>
+        <description></description>
+        <link>https://wiki.jurjen.dev/</link>
+        <image rdf:resource="https://wiki.jurjen.dev/lib/tpl/dokuwiki/images/favicon.ico" />
+       <dc:date>2021-11-27T14:27:59+00:00</dc:date>
+        <items>
+            <rdf:Seq>
+                <rdf:li rdf:resource="https://wiki.jurjen.dev/doku.php/bookmarks?rev=1637066891&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.jurjen.dev/doku.php/configuration:labs.jurjen.dev?rev=1636639199&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.jurjen.dev/doku.php/configuration:jurjen.dev?rev=1636140197&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.jurjen.dev/doku.php/tricks?rev=1636010245&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.jurjen.dev/doku.php/start?rev=1636010061&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.jurjen.dev/doku.php/web?rev=1636010022&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.jurjen.dev/doku.php/configuration:labs.jurjen.dev:pkg?rev=1635793506&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.jurjen.dev/doku.php/configuration?rev=1635793229&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.jurjen.dev/doku.php/heroku?rev=1635781411&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.jurjen.dev/doku.php/tricks:git_and_lighttpd?rev=1635682922&amp;do=diff"/>
+            </rdf:Seq>
+        </items>
+    </channel>
+    <image rdf:about="https://wiki.jurjen.dev/lib/tpl/dokuwiki/images/favicon.ico">
+        <title>wiki.jurjen.dev</title>
+        <link>https://wiki.jurjen.dev/</link>
+        <url>https://wiki.jurjen.dev/lib/tpl/dokuwiki/images/favicon.ico</url>
+    </image>
+    <item rdf:about="https://wiki.jurjen.dev/doku.php/bookmarks?rev=1637066891&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-11-16T12:48:11+00:00</dc:date>
+        <dc:creator>jurjen (jurjen@undisclosed.example.com)</dc:creator>
+        <title>bookmarks - [Frontend Web] </title>
+        <link>https://wiki.jurjen.dev/doku.php/bookmarks?rev=1637066891&amp;do=diff</link>
+        <description>Links
+
+	*  My github
+
+System
+
+FreeBSD
+
+	*  Handbook
+	*  Manual pages
+	*  
+
+Backend Web
+
+	*  Go web app intro
+	*  gorilla toolkit
+
+Frontend Web
+
+	*  Mozilla Developer Network
+	*  W3Schools basic web tutorials
+	*  Bootstrap documentation
+	*  List of cool tutorials
+	*  &lt;https://css-tricks.com/quick-whats-the-difference-between-flexbox-and-grid/&gt;
+	*  &lt;https://ishadeed.com/article/pixel-perfection/&gt; A designers' POV
+	*  &lt;https://dev.to/mefaba/how-to-use-scss-with-svelte-4c6o&gt; Add scss support to a sv…</description>
+    </item>
+    <item rdf:about="https://wiki.jurjen.dev/doku.php/configuration:labs.jurjen.dev?rev=1636639199&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-11-11T13:59:59+00:00</dc:date>
+        <dc:creator>jurjen (jurjen@undisclosed.example.com)</dc:creator>
+        <title>configuration:labs.jurjen.dev</title>
+        <link>https://wiki.jurjen.dev/doku.php/configuration:labs.jurjen.dev?rev=1636639199&amp;do=diff</link>
+        <description>Configuration on labs.jurjen.dev
+
+Discontinued for now</description>
+    </item>
+    <item rdf:about="https://wiki.jurjen.dev/doku.php/configuration:jurjen.dev?rev=1636140197&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-11-05T19:23:17+00:00</dc:date>
+        <dc:creator>jurjen (jurjen@undisclosed.example.com)</dc:creator>
+        <title>configuration:jurjen.dev - [Extra hacks] </title>
+        <link>https://wiki.jurjen.dev/doku.php/configuration:jurjen.dev?rev=1636140197&amp;do=diff</link>
+        <description>jurjen.dev
+
+jurjen.dev is my new domain &amp; server (end of 2021)
+It will host my personal website, notes, projects, etc..
+
+It's been a while... I am very excited to have both a web presence and a FreeBSD host again :D
+
+Basic info
+
+Runs on a vps
+
+	*   Installed packages list
+	*</description>
+    </item>
+    <item rdf:about="https://wiki.jurjen.dev/doku.php/tricks?rev=1636010245&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-11-04T07:17:25+00:00</dc:date>
+        <dc:creator>jurjen (jurjen@undisclosed.example.com)</dc:creator>
+        <title>tricks - [Web] </title>
+        <link>https://wiki.jurjen.dev/doku.php/tricks?rev=1636010245&amp;do=diff</link>
+        <description>Computer links, tips &amp; tricks
+
+Programming
+
+Web
+
+	*  HOWTO: fcgi with go
+
+CSS
+
+	*  &lt;https://css-tricks.com&gt; well written articles
+	*  no-override first media queries
+
+    Nice way to do CSS; component 'basics first', put specifics in media queries.
+
+Admin
+
+	*  &lt;https://gandi.net&gt; nice registrar
+	*  &lt;https://transip.nl&gt; FreeBSD vps/cloud host I'm using atm.
+	*</description>
+    </item>
+    <item rdf:about="https://wiki.jurjen.dev/doku.php/start?rev=1636010061&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-11-04T07:14:21+00:00</dc:date>
+        <dc:creator>jurjen (jurjen@undisclosed.example.com)</dc:creator>
+        <title>start</title>
+        <link>https://wiki.jurjen.dev/doku.php/start?rev=1636010061&amp;do=diff</link>
+        <description>Welcome to my wiki
+
+Here I am keeping (mostly) computer related links, tricks and thoughts I find interesting.
+
+	*  Host configuration notes
+	*  Computer Tricks &amp; Tips
+	*  Bookmarks
+	*  Heroku notes</description>
+    </item>
+    <item rdf:about="https://wiki.jurjen.dev/doku.php/web?rev=1636010022&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-11-04T07:13:42+00:00</dc:date>
+        <dc:creator>jurjen (jurjen@undisclosed.example.com)</dc:creator>
+        <title>web - removed</title>
+        <link>https://wiki.jurjen.dev/doku.php/web?rev=1636010022&amp;do=diff</link>
+        <description></description>
+    </item>
+    <item rdf:about="https://wiki.jurjen.dev/doku.php/configuration:labs.jurjen.dev:pkg?rev=1635793506&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-11-01T19:05:06+00:00</dc:date>
+        <dc:creator>jurjen (jurjen@undisclosed.example.com)</dc:creator>
+        <title>configuration:labs.jurjen.dev:pkg - created</title>
+        <link>https://wiki.jurjen.dev/doku.php/configuration:labs.jurjen.dev:pkg?rev=1635793506&amp;do=diff</link>
+        <description>*  git
+	*  vim
+	*  bash
+	*  sudo</description>
+    </item>
+    <item rdf:about="https://wiki.jurjen.dev/doku.php/configuration?rev=1635793229&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-11-01T19:00:29+00:00</dc:date>
+        <dc:creator>jurjen (jurjen@undisclosed.example.com)</dc:creator>
+        <title>configuration</title>
+        <link>https://wiki.jurjen.dev/doku.php/configuration?rev=1635793229&amp;do=diff</link>
+        <description>Host configuration notes
+
+Some machines and how they are set up...sort of
+
+	*  labs.jurjen.dev FreeBSD 13, vps - vultr is almost half cheaper than transip.
+	*  jurjen.dev, FreeBSD 13 (handbook), vps, registar 
+Hosts my website, this wiki and go playground
+	*  hackbook, Debian 11, macbook pro</description>
+    </item>
+    <item rdf:about="https://wiki.jurjen.dev/doku.php/heroku?rev=1635781411&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-11-01T15:43:31+00:00</dc:date>
+        <dc:creator>jurjen (jurjen@undisclosed.example.com)</dc:creator>
+        <title>heroku</title>
+        <link>https://wiki.jurjen.dev/doku.php/heroku?rev=1635781411&amp;do=diff</link>
+        <description>Heroku is simple. Too bad it doesn't accept paypal.
+You get ~500 free hours and a free postgres database.
+Anyway, for go at least, it automatically detects it's a go build if there is a go.mod file included.
+So the process boils down to:
+
+
+$ git init
+$ git add *.go go.mod
+$ git commit
+$ heroku create
+$ git push heroku master
+ ... heroku builds &amp; deploys the go app</description>
+    </item>
+    <item rdf:about="https://wiki.jurjen.dev/doku.php/tricks:git_and_lighttpd?rev=1635682922&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-10-31T12:22:02+00:00</dc:date>
+        <dc:creator>jurjen (jurjen@undisclosed.example.com)</dc:creator>
+        <title>tricks:git_and_lighttpd</title>
+        <link>https://wiki.jurjen.dev/doku.php/tricks:git_and_lighttpd?rev=1635682922&amp;do=diff</link>
+        <description>Use git to store your site
+
+I've switched for a while now to just using rsync.
+ --- jurjen 2021/10/31 12:20
+
+You can use git to easily pull your website onto the server and work on it on another computer.
+
+It shouldn't matter, but for ease of mind,be sure to block the .git directory in lighttpd, like so:</description>
+    </item>
+</rdf:RDF>
