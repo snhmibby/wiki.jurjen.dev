@@ -11,7 +11,7 @@
         <description></description>
         <link>https://wiki.jurjen.dev/</link>
         <image rdf:resource="https://wiki.jurjen.dev/lib/tpl/dokuwiki/images/favicon.ico" />
-       <dc:date>2021-11-29T18:58:00+00:00</dc:date>
+       <dc:date>2021-12-05T02:04:12+00:00</dc:date>
         <items>
             <rdf:Seq>
                 <rdf:li rdf:resource="https://wiki.jurjen.dev/doku.php/bookmarks?rev=1637066891&amp;do=diff"/>

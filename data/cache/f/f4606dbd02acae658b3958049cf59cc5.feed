@@ -11,7 +11,7 @@
         <description></description>
         <link>https://wiki.jurjen.dev/</link>
         <image rdf:resource="https://wiki.jurjen.dev/lib/tpl/dokuwiki/images/favicon.ico" />
-       <dc:date>2021-11-26T14:38:26+00:00</dc:date>
+       <dc:date>2021-12-03T21:54:03+00:00</dc:date>
         <items>
             <rdf:Seq>
                 <rdf:li rdf:resource="https://wiki.jurjen.dev/doku.php/tricks:fetchmail_ssl?rev=1634719183&amp;do=diff"/>

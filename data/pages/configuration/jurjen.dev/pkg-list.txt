@@ -1,8 +1,9 @@
 ====== Installed pkg ======
 
   * vim
-  * git
+  * fish
   * bash
+  * git
   * lighttpd
   * sudo
   * rsync
