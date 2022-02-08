@@ -11,11 +11,11 @@
         <description></description>
         <link>https://wiki.jurjen.dev/</link>
         <image rdf:resource="https://wiki.jurjen.dev/lib/tpl/dokuwiki/images/favicon.ico" />
-       <dc:date>2021-12-04T00:34:12+00:00</dc:date>
+       <dc:date>2022-02-05T22:35:28+00:00</dc:date>
         <items>
             <rdf:Seq>
+                <rdf:li rdf:resource="https://wiki.jurjen.dev/doku.php/bookmarks?rev=1639132352&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.jurjen.dev/doku.php/configuration:jurjen.dev:pkg-list?rev=1638277451&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.jurjen.dev/doku.php/bookmarks?rev=1637066891&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.jurjen.dev/doku.php/configuration:labs.jurjen.dev?rev=1636639199&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.jurjen.dev/doku.php/configuration:jurjen.dev?rev=1636140197&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.jurjen.dev/doku.php/tricks?rev=1636010245&amp;do=diff"/>
@@ -24,7 +24,6 @@
                 <rdf:li rdf:resource="https://wiki.jurjen.dev/doku.php/configuration:labs.jurjen.dev:pkg?rev=1635793506&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.jurjen.dev/doku.php/configuration?rev=1635793229&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.jurjen.dev/doku.php/heroku?rev=1635781411&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.jurjen.dev/doku.php/tricks:git_and_lighttpd?rev=1635682922&amp;do=diff"/>
             </rdf:Seq>
         </items>
     </channel>
@@ -33,37 +32,19 @@
         <link>https://wiki.jurjen.dev/</link>
         <url>https://wiki.jurjen.dev/lib/tpl/dokuwiki/images/favicon.ico</url>
     </image>
-    <item rdf:about="https://wiki.jurjen.dev/doku.php/configuration:jurjen.dev:pkg-list?rev=1638277451&amp;do=diff">
+    <item rdf:about="https://wiki.jurjen.dev/doku.php/bookmarks?rev=1639132352&amp;do=diff">
         <dc:format>text/html</dc:format>
-        <dc:date>2021-11-30T13:04:11+00:00</dc:date>
+        <dc:date>2021-12-10T10:32:32+00:00</dc:date>
         <dc:creator>jurjen (jurjen@undisclosed.example.com)</dc:creator>
-        <title>configuration:jurjen.dev:pkg-list</title>
-        <link>https://wiki.jurjen.dev/doku.php/configuration:jurjen.dev:pkg-list?rev=1638277451&amp;do=diff</link>
-        <description>Installed pkg
-
-	*  vim
-	*  fish
-	*  bash
-	*  git
-	*  lighttpd
-	*  sudo
-	*  rsync
-	*  go (v1.17)
-	*  py38-certbot
-	*  dokuwiki
-	*  Lynis</description>
-    </item>
-    <item rdf:about="https://wiki.jurjen.dev/doku.php/bookmarks?rev=1637066891&amp;do=diff">
-        <dc:format>text/html</dc:format>
-        <dc:date>2021-11-16T12:48:11+00:00</dc:date>
-        <dc:creator>jurjen (jurjen@undisclosed.example.com)</dc:creator>
-        <title>bookmarks - [Frontend Web] </title>
-        <link>https://wiki.jurjen.dev/doku.php/bookmarks?rev=1637066891&amp;do=diff</link>
+        <title>bookmarks - [System] </title>
+        <link>https://wiki.jurjen.dev/doku.php/bookmarks?rev=1639132352&amp;do=diff</link>
         <description>Links
 
 	*  My github
 
 System
+
+gitimmersion : git tutorials
 
 FreeBSD
 
@@ -84,7 +65,27 @@ Frontend Web
 	*  List of cool tutorials
 	*  &lt;https://css-tricks.com/quick-whats-the-difference-between-flexbox-and-grid/&gt;
 	*  &lt;https://ishadeed.com/article/pixel-perfection/&gt; A designers' POV
-	*  &lt;https://dev.to/mefaba/how-to-use-scss-with-svelte-4c6o&gt; Add scss support to a sv…</description>
+	*  &lt;https://dev.to/mefaba/how-to-use-scss-with-svelte-…</description>
+    </item>
+    <item rdf:about="https://wiki.jurjen.dev/doku.php/configuration:jurjen.dev:pkg-list?rev=1638277451&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-11-30T13:04:11+00:00</dc:date>
+        <dc:creator>jurjen (jurjen@undisclosed.example.com)</dc:creator>
+        <title>configuration:jurjen.dev:pkg-list</title>
+        <link>https://wiki.jurjen.dev/doku.php/configuration:jurjen.dev:pkg-list?rev=1638277451&amp;do=diff</link>
+        <description>Installed pkg
+
+	*  vim
+	*  fish
+	*  bash
+	*  git
+	*  lighttpd
+	*  sudo
+	*  rsync
+	*  go (v1.17)
+	*  py38-certbot
+	*  dokuwiki
+	*  Lynis</description>
     </item>
     <item rdf:about="https://wiki.jurjen.dev/doku.php/configuration:labs.jurjen.dev?rev=1636639199&amp;do=diff">
         <dc:format>text/html</dc:format>
@@ -210,20 +211,5 @@ $ git commit
 $ heroku create
 $ git push heroku master
  ... heroku builds &amp; deploys the go app</description>
-    </item>
-    <item rdf:about="https://wiki.jurjen.dev/doku.php/tricks:git_and_lighttpd?rev=1635682922&amp;do=diff">
-        <dc:format>text/html</dc:format>
-        <dc:date>2021-10-31T12:22:02+00:00</dc:date>
-        <dc:creator>jurjen (jurjen@undisclosed.example.com)</dc:creator>
-        <title>tricks:git_and_lighttpd</title>
-        <link>https://wiki.jurjen.dev/doku.php/tricks:git_and_lighttpd?rev=1635682922&amp;do=diff</link>
-        <description>Use git to store your site
-
-I've switched for a while now to just using rsync.
- --- jurjen 2021/10/31 12:20
-
-You can use git to easily pull your website onto the server and work on it on another computer.
-
-It shouldn't matter, but for ease of mind,be sure to block the .git directory in lighttpd, like so:</description>
     </item>
 </rdf:RDF>
