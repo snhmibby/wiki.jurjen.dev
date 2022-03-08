@@ -1,0 +1,17 @@
+
+<p>
+Heroku is simple. Too bad it doesn&#039;t accept paypal.
+You get ~500 free hours and a free postgres database.
+Anyway, for go at least, it automatically detects it&#039;s a go build if there is a go.mod file included.
+So the process boils down to:
+</p>
+<pre class="code">$ git init
+$ git add *.go go.mod
+$ git commit
+$ heroku create
+$ git push heroku master
+ ... heroku builds &amp; deploys the go app</pre>
+
+<p>
+keep in mind your app should listen on the PORT env var.
+</p>
