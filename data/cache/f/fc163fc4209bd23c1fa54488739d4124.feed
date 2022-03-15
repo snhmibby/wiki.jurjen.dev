@@ -11,10 +11,10 @@
         <description></description>
         <link>https://wiki.jurjen.dev/</link>
         <image rdf:resource="https://wiki.jurjen.dev/lib/tpl/dokuwiki/images/favicon.ico" />
-       <dc:date>2021-12-05T02:04:12+00:00</dc:date>
+       <dc:date>2022-03-14T01:10:15+00:00</dc:date>
         <items>
             <rdf:Seq>
-                <rdf:li rdf:resource="https://wiki.jurjen.dev/doku.php/bookmarks?rev=1637066891&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.jurjen.dev/doku.php/bookmarks?rev=1639132352&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.jurjen.dev/doku.php/configuration?rev=1635793229&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.jurjen.dev/doku.php/freebsd?rev=1634539770&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.jurjen.dev/doku.php/heroku?rev=1635781411&amp;do=diff"/>
@@ -28,17 +28,19 @@
         <link>https://wiki.jurjen.dev/</link>
         <url>https://wiki.jurjen.dev/lib/tpl/dokuwiki/images/favicon.ico</url>
     </image>
-    <item rdf:about="https://wiki.jurjen.dev/doku.php/bookmarks?rev=1637066891&amp;do=diff">
+    <item rdf:about="https://wiki.jurjen.dev/doku.php/bookmarks?rev=1639132352&amp;do=diff">
         <dc:format>text/html</dc:format>
-        <dc:date>2021-11-16T12:48:11+00:00</dc:date>
+        <dc:date>2021-12-10T10:32:32+00:00</dc:date>
         <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
         <title>bookmarks</title>
-        <link>https://wiki.jurjen.dev/doku.php/bookmarks?rev=1637066891&amp;do=diff</link>
+        <link>https://wiki.jurjen.dev/doku.php/bookmarks?rev=1639132352&amp;do=diff</link>
         <description>Links
 
 	*  My github
 
 System
+
+gitimmersion : git tutorials
 
 FreeBSD
 
@@ -59,7 +61,7 @@ Frontend Web
 	*  List of cool tutorials
 	*  &lt;https://css-tricks.com/quick-whats-the-difference-between-flexbox-and-grid/&gt;
 	*  &lt;https://ishadeed.com/article/pixel-perfection/&gt; A designers' POV
-	*  &lt;https://dev.to/mefaba/how-to-use-scss-with-svelte-4c6o&gt; Add scss support to a sv…</description>
+	*  &lt;https://dev.to/mefaba/how-to-use-scss-with-svelte-…</description>
     </item>
     <item rdf:about="https://wiki.jurjen.dev/doku.php/configuration?rev=1635793229&amp;do=diff">
         <dc:format>text/html</dc:format>
