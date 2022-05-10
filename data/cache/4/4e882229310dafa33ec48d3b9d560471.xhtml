@@ -1,0 +1,21 @@
+
+<h1 class="sectionedit1" id="put_configuration_in_a_git_repo">Put .configuration in a git repo</h1>
+<div class="level1">
+
+<p>
+Simple methods for simple folks.
+</p>
+
+<p>
+The first would be to initialize a git repo in the filesystem root folder and git add to there, this seems very simple, no need to mess around with symlinks etc, no set up needed, just git add shit. but also has potential for massive screw ups :)
+</p>
+
+<p>
+The other, more sensible method is to move each configuration file into the repo once before you edit it, and then soft link the system location to it. Takes some manual set up, but no chance of catastrophic failures. For installation you could write a shell simple script that installs symlinks for each file it finds in the repo.
+</p>
+
+<p>
+Neither option takes file ownership or permissions into account.
+</p>
+
+</div>

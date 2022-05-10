@@ -1,0 +1,55 @@
+
+<h1 class="sectionedit1" id="hugo_static_site_generator">Hugo Static Site Generator</h1>
+<div class="level1">
+
+<p>
+<a href="http://gohugo.io" class="urlextern" title="http://gohugo.io" rel="ugc nofollow">Hugo</a> basically generates a website by stitching together <a href="/doku.php/web:template" class="wikilink1" title="web:template" data-wiki-id="web:template">templates</a> and content files. It can also run external commands to generate other assets (e.g. <abbr title="Cascading Style Sheets">CSS</abbr> with SASS, transpiled javascript, web assembly).
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Hugo Static Site Generator&quot;,&quot;hid&quot;:&quot;hugo_static_site_generator&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:1,&quot;range&quot;:&quot;1-286&quot;} -->
+<h2 class="sectionedit2" id="create_a_basic_website_in_hugo">Create a basic website in Hugo</h2>
+<div class="level2">
+
+<p>
+Unfortunately, the Hugo documentation is a bit dense and it is not very clear how to get started. Most common tutorials and even the official documentation is of no help since they just suggest to install a theme and crank out content.
+</p>
+
+<p>
+Fortunately, <a href="https://levelup.gitconnected.com/a-quick-tutorial-on-hugo-templates-creating-your-theme-a4102b42a85f" class="urlextern" title="https://levelup.gitconnected.com/a-quick-tutorial-on-hugo-templates-creating-your-theme-a4102b42a85f" rel="ugc nofollow">this tutorial</a> starts from the ground up by creating a new theme and explaining how to get started with Hugo from basic building blocks.
+</p>
+
+<p>
+Actually, searching on “hugo” and “create theme” brings up much more usefull tutorials than “create website” kind of queries
+ — <em><a href="mailto:&#105;&#110;&#102;&#111;&#64;&#106;&#117;&#114;&#106;&#101;&#110;&#46;&#100;&#101;&#118;" class="mail" title="&#105;&#110;&#102;&#111;&#64;&#106;&#117;&#114;&#106;&#101;&#110;&#46;&#100;&#101;&#118;">jurjen</a> 2021/10/21 00:38</em>
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Create a basic website in Hugo&quot;,&quot;hid&quot;:&quot;create_a_basic_website_in_hugo&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:2,&quot;range&quot;:&quot;287-1001&quot;} -->
+<h3 class="sectionedit3" id="steps_to_create_a_new_basic_website_with_a_theme">Steps to create a new basic website with a theme</h3>
+<div class="level3">
+<ol>
+<li class="level1"><div class="li"> <pre class="code">hugo new site mysite</pre>
+</div>
+</li>
+<li class="level1"><div class="li"> <pre class="code">hugo new theme mystyle</pre>
+</div>
+</li>
+<li class="level1 node"><div class="li"> fill the created theme-templates in themes/mystyle/layouts</div>
+<ul>
+<li class="level2"><div class="li"> index.html</div>
+</li>
+<li class="level2"><div class="li"> partials/: head.html, header.html, footer.html</div>
+</li>
+<li class="level2"><div class="li"> _default/: list.html, single.html</div>
+</li>
+</ul>
+</li>
+<li class="level1"><div class="li"> add the theme to config.toml (theme=“mystyle”), or optionally copy all  files and folders to the top level to not use a theme</div>
+</li>
+<li class="level1"><div class="li"> Add markdown content with hugo new &lt;folder&gt;/&lt;name&gt;.md, don&#039;t forget to set draft to false.</div>
+</li>
+</ol>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Steps to create a new basic website with a theme&quot;,&quot;hid&quot;:&quot;steps_to_create_a_new_basic_website_with_a_theme&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:3,&quot;range&quot;:&quot;1002-&quot;} -->
