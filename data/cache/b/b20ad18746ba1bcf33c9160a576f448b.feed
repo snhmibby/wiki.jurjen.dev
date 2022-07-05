@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generator="FeedCreator 1.8" -->
+<?xml-stylesheet href="https://wiki.jurjen.dev/lib/exe/css.php?s=feed" type="text/css"?>
+<rdf:RDF
+    xmlns="http://purl.org/rss/1.0/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel rdf:about="https://wiki.jurjen.dev/feed.php">
+        <title>wiki.jurjen.dev web</title>
+        <description></description>
+        <link>https://wiki.jurjen.dev/</link>
+        <image rdf:resource="https://wiki.jurjen.dev/lib/tpl/dokuwiki/images/favicon.ico" />
+       <dc:date>2022-07-03T17:53:33+00:00</dc:date>
+        <items>
+            <rdf:Seq>
+                <rdf:li rdf:resource="https://wiki.jurjen.dev/doku.php/web:bootstrapcss?rev=1634758817&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.jurjen.dev/doku.php/web:hugo?rev=1634777269&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.jurjen.dev/doku.php/web:template?rev=1634886436&amp;do=diff"/>
+            </rdf:Seq>
+        </items>
+    </channel>
+    <image rdf:about="https://wiki.jurjen.dev/lib/tpl/dokuwiki/images/favicon.ico">
+        <title>wiki.jurjen.dev</title>
+        <link>https://wiki.jurjen.dev/</link>
+        <url>https://wiki.jurjen.dev/lib/tpl/dokuwiki/images/favicon.ico</url>
+    </image>
+    <item rdf:about="https://wiki.jurjen.dev/doku.php/web:bootstrapcss?rev=1634758817&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-10-20T19:40:17+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>web:bootstrapcss</title>
+        <link>https://wiki.jurjen.dev/doku.php/web:bootstrapcss?rev=1634758817&amp;do=diff</link>
+        <description>Bootstrap CSS
+
+&lt;https://getbootstrap.com&gt;
+Well supported &amp; documented css framework.</description>
+    </item>
+    <item rdf:about="https://wiki.jurjen.dev/doku.php/web:hugo?rev=1634777269&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-10-21T00:47:49+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>web:hugo</title>
+        <link>https://wiki.jurjen.dev/doku.php/web:hugo?rev=1634777269&amp;do=diff</link>
+        <description>Hugo Static Site Generator
+
+Hugo basically generates a website by stitching together templates and content files. It can also run external commands to generate other assets (e.g. CSS with SASS, transpiled javascript, web assembly).
+
+Create a basic website in Hugo</description>
+    </item>
+    <item rdf:about="https://wiki.jurjen.dev/doku.php/web:template?rev=1634886436&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-10-22T07:07:16+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>web:template</title>
+        <link>https://wiki.jurjen.dev/doku.php/web:template?rev=1634886436&amp;do=diff</link>
+        <description>Templates
+
+A template defines standard pieces of text and can have variables/loops/control flow to drive output. See e.g. &lt;https://pkg.go.dev/text/template&gt; for an example in the Go standard library.
+
+Template systems or (more old-fashioned) add-hoc approaches using text tools (say, awk or the C-preprocessor) have been used. Many web servers have support for dynamic templates.</description>
+    </item>
+</rdf:RDF>
