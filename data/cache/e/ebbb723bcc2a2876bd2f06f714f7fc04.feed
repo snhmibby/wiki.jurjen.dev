@@ -7,14 +7,14 @@
     xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
     xmlns:dc="http://purl.org/dc/elements/1.1/">
     <channel rdf:about="https://wiki.jurjen.dev/feed.php">
-        <title>wiki.jurjen.dev configuration:jurjen.dev</title>
+        <title>wiki.jurjen.dev playground</title>
         <description></description>
         <link>https://wiki.jurjen.dev/</link>
         <image rdf:resource="https://wiki.jurjen.dev/lib/tpl/dokuwiki/images/favicon.ico" />
-       <dc:date>2022-07-18T19:56:17+00:00</dc:date>
+       <dc:date>2022-07-18T18:18:48+00:00</dc:date>
         <items>
             <rdf:Seq>
-                <rdf:li rdf:resource="https://wiki.jurjen.dev/doku.php/configuration:jurjen.dev:pkg-list?rev=1638277451&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.jurjen.dev/doku.php/playground:playground?rev=1596015505&amp;do=diff"/>
             </rdf:Seq>
         </items>
     </channel>
@@ -23,24 +23,12 @@
         <link>https://wiki.jurjen.dev/</link>
         <url>https://wiki.jurjen.dev/lib/tpl/dokuwiki/images/favicon.ico</url>
     </image>
-    <item rdf:about="https://wiki.jurjen.dev/doku.php/configuration:jurjen.dev:pkg-list?rev=1638277451&amp;do=diff">
+    <item rdf:about="https://wiki.jurjen.dev/doku.php/playground:playground?rev=1596015505&amp;do=diff">
         <dc:format>text/html</dc:format>
-        <dc:date>2021-11-30T13:04:11+00:00</dc:date>
+        <dc:date>2020-07-29T09:38:25+00:00</dc:date>
         <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
-        <title>configuration:jurjen.dev:pkg-list</title>
-        <link>https://wiki.jurjen.dev/doku.php/configuration:jurjen.dev:pkg-list?rev=1638277451&amp;do=diff</link>
-        <description>Installed pkg
-
-	*  vim
-	*  fish
-	*  bash
-	*  git
-	*  lighttpd
-	*  sudo
-	*  rsync
-	*  go (v1.17)
-	*  py38-certbot
-	*  dokuwiki
-	*  Lynis</description>
+        <title>playground:playground</title>
+        <link>https://wiki.jurjen.dev/doku.php/playground:playground?rev=1596015505&amp;do=diff</link>
+        <description>PlayGround</description>
     </item>
 </rdf:RDF>
